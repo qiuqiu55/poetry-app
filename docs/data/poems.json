@@ -1,0 +1,4298 @@
+[
+  {
+    "id": "grade1_volume1_poem1",
+    "grade": 1,
+    "volume": "上册",
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "鹅，鹅，鹅，\n曲项向天歌。\n白毛浮绿水，\n红掌拨清波。",
+    "content_array": [
+      "鹅，鹅，鹅，",
+      "曲项向天歌。",
+      "白毛浮绿水，",
+      "红掌拨清波。"
+    ],
+    "notes": [
+      {
+        "word": "咏鹅",
+        "explanation": "赞美鹅的诗。"
+      },
+      {
+        "word": "曲项",
+        "explanation": "弯着脖子。"
+      },
+      {
+        "word": "向天歌",
+        "explanation": "对着天唱歌（拟人）。"
+      },
+      {
+        "word": "浮绿水",
+        "explanation": "浮在绿水上。"
+      },
+      {
+        "word": "拨清波",
+        "explanation": "划动清澈的水波。"
+      }
+    ],
+    "translation": "鹅，鹅，鹅，弯着脖子对着天唱歌。白色的羽毛浮在绿水上，红色的脚掌划动清澈的水波。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume1_poem2",
+    "grade": 1,
+    "volume": "上册",
+    "title": "画",
+    "author": "王维",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "远看山有色，\n近听水无声。\n春去花还在，\n人来鸟不惊。",
+    "content_array": [
+      "远看山有色，",
+      "近听水无声。",
+      "春去花还在，",
+      "人来鸟不惊。"
+    ],
+    "notes": [
+      {
+        "word": "有色",
+        "explanation": "有颜色（能看到）。"
+      },
+      {
+        "word": "无声",
+        "explanation": "没有声音。"
+      },
+      {
+        "word": "花还在",
+        "explanation": "花仍然开着（画中的花不会凋谢）。"
+      },
+      {
+        "word": "鸟不惊",
+        "explanation": "鸟不害怕（画中的鸟不会飞走）。"
+      }
+    ],
+    "translation": "远看山有颜色，近听水没有声音。春天过去了花还在开，人来了鸟也不害怕。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume1_poem3",
+    "grade": 1,
+    "volume": "上册",
+    "title": "悯农",
+    "author": "其二",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "锄禾日当午，\n汗滴禾下土。\n谁知盘中餐，\n粒粒皆辛苦。",
+    "content_array": [
+      "锄禾日当午，",
+      "汗滴禾下土。",
+      "谁知盘中餐，",
+      "粒粒皆辛苦。"
+    ],
+    "notes": [
+      {
+        "word": "锄禾",
+        "explanation": "给禾苗除草。"
+      },
+      {
+        "word": "日当午",
+        "explanation": "太阳正当中午。"
+      },
+      {
+        "word": "汗滴",
+        "explanation": "汗水滴落。"
+      },
+      {
+        "word": "盘中餐",
+        "explanation": "碗里的饭。"
+      },
+      {
+        "word": "皆辛苦",
+        "explanation": "都是辛苦得来的。"
+      }
+    ],
+    "translation": "中午太阳正烈时给禾苗除草，汗水滴落在禾苗下的泥土里。谁知道碗里的饭，每一粒都是辛苦得来的。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume1_poem4",
+    "grade": 1,
+    "volume": "上册",
+    "title": "江南",
+    "author": "《汉乐府》",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "江南可采莲，\n莲叶何田田。\n鱼戏莲叶间。\n鱼戏莲叶东，\n鱼戏莲叶西，\n鱼戏莲叶南，\n鱼戏莲叶北。",
+    "content_array": [
+      "江南可采莲，",
+      "莲叶何田田。",
+      "鱼戏莲叶间。",
+      "鱼戏莲叶东，",
+      "鱼戏莲叶西，",
+      "鱼戏莲叶南，",
+      "鱼戏莲叶北。"
+    ],
+    "notes": [
+      {
+        "word": "可采莲",
+        "explanation": "可以采莲蓬。"
+      },
+      {
+        "word": "何田田",
+        "explanation": "多么茂盛（形容莲叶多）。"
+      },
+      {
+        "word": "戏",
+        "explanation": "嬉戏、游玩。"
+      }
+    ],
+    "translation": "江南可以采莲蓬，莲叶多么茂盛。鱼儿在莲叶间嬉戏。鱼儿在莲叶东边嬉戏，在莲叶西边嬉戏，在莲叶南边嬉戏，在莲叶北边嬉戏。",
+    "dynasty": "未知",
+    "line_count": 7,
+    "char_count": 42,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume1_poem5",
+    "grade": 1,
+    "volume": "上册",
+    "title": "古朗月行",
+    "author": "李白",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "小时不识月，\n呼作白玉盘。\n又疑瑶台镜，\n飞在青云端。",
+    "content_array": [
+      "小时不识月，",
+      "呼作白玉盘。",
+      "又疑瑶台镜，",
+      "飞在青云端。"
+    ],
+    "notes": [
+      {
+        "word": "不识月",
+        "explanation": "不认识月亮。"
+      },
+      {
+        "word": "呼作",
+        "explanation": "叫作。"
+      },
+      {
+        "word": "白玉盘",
+        "explanation": "白色的玉盘（比喻月亮圆而亮）。"
+      },
+      {
+        "word": "疑",
+        "explanation": "怀疑、猜想。"
+      },
+      {
+        "word": "瑶台镜",
+        "explanation": "瑶台上的镜子（瑶台是神话中仙人的居所）。"
+      },
+      {
+        "word": "青云端",
+        "explanation": "青色的云上面。"
+      }
+    ],
+    "translation": "小时候不认识月亮，把它叫作白玉盘。又猜想是瑶台上的镜子，飞在青色的云端。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume1_poem6",
+    "grade": 1,
+    "volume": "上册",
+    "title": "风",
+    "author": "李峤",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "解落三秋叶，\n能开二月花。\n过江千尺浪，\n入竹万竿斜。",
+    "content_array": [
+      "解落三秋叶，",
+      "能开二月花。",
+      "过江千尺浪，",
+      "入竹万竿斜。"
+    ],
+    "notes": [
+      {
+        "word": "解落",
+        "explanation": "能够吹落。"
+      },
+      {
+        "word": "三秋叶",
+        "explanation": "秋天的叶子（三秋指秋天）。"
+      },
+      {
+        "word": "开二月花",
+        "explanation": "吹开二月的花。"
+      },
+      {
+        "word": "千尺浪",
+        "explanation": "千尺高的浪（夸张）。"
+      },
+      {
+        "word": "万竿斜",
+        "explanation": "很多竹竿倾斜（形容风大）。"
+      }
+    ],
+    "translation": "能够吹落秋天的叶子，能够吹开二月的花。吹过江面掀起千尺高的浪，吹进竹林让万根竹竿倾斜。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume2_poem1",
+    "grade": 1,
+    "volume": "下册",
+    "title": "春晓",
+    "author": "孟浩然",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "春眠不觉晓，\n处处闻啼鸟。\n夜来风雨声，\n花落知多少。",
+    "content_array": [
+      "春眠不觉晓，",
+      "处处闻啼鸟。",
+      "夜来风雨声，",
+      "花落知多少。"
+    ],
+    "notes": [
+      {
+        "word": "春晓",
+        "explanation": "春天的早晨。"
+      },
+      {
+        "word": "不觉晓",
+        "explanation": "不知不觉天亮了。"
+      },
+      {
+        "word": "闻啼鸟",
+        "explanation": "听到鸟叫声。"
+      },
+      {
+        "word": "夜来",
+        "explanation": "昨天夜里。"
+      },
+      {
+        "word": "知多少",
+        "explanation": "不知道有多少。"
+      }
+    ],
+    "translation": "春天睡觉不知不觉天亮了，到处都能听到鸟叫声。昨天夜里有风声雨声，不知道吹落了多少花。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume2_poem2",
+    "grade": 1,
+    "volume": "下册",
+    "title": "赠汪伦",
+    "author": "李白",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "李白乘舟将欲行，\n忽闻岸上踏歌声。\n桃花潭水深千尺，\n不及汪伦送我情。",
+    "content_array": [
+      "李白乘舟将欲行，",
+      "忽闻岸上踏歌声。",
+      "桃花潭水深千尺，",
+      "不及汪伦送我情。"
+    ],
+    "notes": [
+      {
+        "word": "乘舟",
+        "explanation": "坐船。"
+      },
+      {
+        "word": "将欲行",
+        "explanation": "将要出发。"
+      },
+      {
+        "word": "踏歌声",
+        "explanation": "用脚打拍子唱歌的声音。"
+      },
+      {
+        "word": "桃花潭",
+        "explanation": "水潭名（在今安徽泾县）。"
+      },
+      {
+        "word": "深千尺",
+        "explanation": "深千尺（夸张，形容水很深）。"
+      },
+      {
+        "word": "不及",
+        "explanation": "比不上。"
+      }
+    ],
+    "translation": "李白坐船将要出发，忽然听到岸上有人用脚打拍子唱歌的声音。桃花潭的水深达千尺，也比不上汪伦送我的情谊深。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume2_poem3",
+    "grade": 1,
+    "volume": "下册",
+    "title": "静夜思",
+    "author": "李白",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "床前明月光，\n疑是地上霜。\n举头望明月，\n低头思故乡。",
+    "content_array": [
+      "床前明月光，",
+      "疑是地上霜。",
+      "举头望明月，",
+      "低头思故乡。"
+    ],
+    "notes": [
+      {
+        "word": "静夜思",
+        "explanation": "在安静的夜里思念。"
+      },
+      {
+        "word": "疑",
+        "explanation": "怀疑、好像。"
+      },
+      {
+        "word": "举头",
+        "explanation": "抬头。"
+      },
+      {
+        "word": "思故乡",
+        "explanation": "思念家乡。"
+      }
+    ],
+    "translation": "床前洒下明亮的月光，好像地上结了霜。抬头望着明亮的月亮，低头思念家乡。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade1_volume2_poem4",
+    "grade": 1,
+    "volume": "下册",
+    "title": "寻隐者不遇",
+    "author": "贾岛",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "松下问童子，\n言师采药去。\n只在此山中，\n云深不知处。",
+    "content_array": [
+      "松下问童子，",
+      "言师采药去。",
+      "只在此山中，",
+      "云深不知处。"
+    ],
+    "notes": [
+      {
+        "word": "寻",
+        "explanation": "寻找。"
+      },
+      {
+        "word": "隐者",
+        "explanation": "隐居的人。"
+      },
+      {
+        "word": "不遇",
+        "explanation": "没有遇到。"
+      },
+      {
+        "word": "童子",
+        "explanation": "小孩（隐者的徒弟）。"
+      },
+      {
+        "word": "言",
+        "explanation": "说。"
+      },
+      {
+        "word": "师",
+        "explanation": "师父（指隐者）。"
+      },
+      {
+        "word": "云深",
+        "explanation": "云很深（形容山高云雾浓）。"
+      },
+      {
+        "word": "不知处",
+        "explanation": "不知道在哪里。"
+      }
+    ],
+    "translation": "在松树下问小孩，他说师父采药去了。就在这座山里，但是云雾很深，不知道具体在哪里。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem1",
+    "grade": 2,
+    "volume": "上册",
+    "title": "梅花",
+    "author": "王安石",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "墙角数枝梅，\n凌寒独自开。\n遥知不是雪，\n为有暗香来。",
+    "content_array": [
+      "墙角数枝梅，",
+      "凌寒独自开。",
+      "遥知不是雪，",
+      "为有暗香来。"
+    ],
+    "notes": [
+      {
+        "word": "数枝梅",
+        "explanation": "几枝梅花。"
+      },
+      {
+        "word": "凌寒",
+        "explanation": "冒着寒冷。"
+      },
+      {
+        "word": "独自开",
+        "explanation": "独自开放。"
+      },
+      {
+        "word": "遥知",
+        "explanation": "远远就知道。"
+      },
+      {
+        "word": "为",
+        "explanation": "因为。"
+      },
+      {
+        "word": "暗香",
+        "explanation": "淡淡的香气。"
+      }
+    ],
+    "translation": "墙角有几枝梅花，冒着寒冷独自开放。远远就知道那不是雪，因为有一阵阵淡淡的香气飘来。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem2",
+    "grade": 2,
+    "volume": "上册",
+    "title": "小儿垂钓",
+    "author": "胡令能",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "蓬头稚子学垂纶，\n侧坐莓苔草映身。\n路人借问遥招手，\n怕得鱼惊不应人。",
+    "content_array": [
+      "蓬头稚子学垂纶，",
+      "侧坐莓苔草映身。",
+      "路人借问遥招手，",
+      "怕得鱼惊不应人。"
+    ],
+    "notes": [
+      {
+        "word": "蓬头",
+        "explanation": "头发乱蓬蓬的。"
+      },
+      {
+        "word": "稚子",
+        "explanation": "小孩。"
+      },
+      {
+        "word": "垂纶",
+        "explanation": "钓鱼（\"纶\"指钓鱼线）。"
+      },
+      {
+        "word": "侧坐",
+        "explanation": "侧着身子坐。"
+      },
+      {
+        "word": "莓苔",
+        "explanation": "青苔。"
+      },
+      {
+        "word": "映身",
+        "explanation": "遮住身子。"
+      },
+      {
+        "word": "借问",
+        "explanation": "打听、询问。"
+      },
+      {
+        "word": "遥招手",
+        "explanation": "远远地招手。"
+      },
+      {
+        "word": "怕得",
+        "explanation": "害怕。"
+      },
+      {
+        "word": "鱼惊",
+        "explanation": "鱼受惊。"
+      },
+      {
+        "word": "不应人",
+        "explanation": "不回答人。"
+      }
+    ],
+    "translation": "头发乱蓬蓬的小孩学着钓鱼，侧着身子坐在青苔上，草遮住了他的身子。路人过来打听，他远远地招手，害怕惊动了鱼而不回答人。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem3",
+    "grade": 2,
+    "volume": "上册",
+    "title": "登鹳雀楼",
+    "author": "王之涣",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "白日依山尽，\n黄河入海流。\n欲穷千里目，\n更上一层楼。",
+    "content_array": [
+      "白日依山尽，",
+      "黄河入海流。",
+      "欲穷千里目，",
+      "更上一层楼。"
+    ],
+    "notes": [
+      {
+        "word": "登",
+        "explanation": "登上。"
+      },
+      {
+        "word": "鹳雀楼",
+        "explanation": "楼名（在今山西永济）。"
+      },
+      {
+        "word": "白日",
+        "explanation": "太阳。"
+      },
+      {
+        "word": "依山尽",
+        "explanation": "靠着山落下去。"
+      },
+      {
+        "word": "黄河入海流",
+        "explanation": "黄河流入大海。"
+      },
+      {
+        "word": "欲穷",
+        "explanation": "想要穷尽。"
+      },
+      {
+        "word": "千里目",
+        "explanation": "看到千里之外的视力。"
+      },
+      {
+        "word": "更",
+        "explanation": "再。"
+      }
+    ],
+    "translation": "太阳靠着山落下去，黄河流入大海。想要看到千里之外的景色，就要再上一层楼。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem4",
+    "grade": 2,
+    "volume": "上册",
+    "title": "望庐山瀑布",
+    "author": "李白",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。",
+    "content_array": [
+      "日照香炉生紫烟，",
+      "遥看瀑布挂前川。",
+      "飞流直下三千尺，",
+      "疑是银河落九天。"
+    ],
+    "notes": [
+      {
+        "word": "香炉",
+        "explanation": "香炉峰（庐山的一座山峰）。"
+      },
+      {
+        "word": "生紫烟",
+        "explanation": "升起紫色的烟雾。"
+      },
+      {
+        "word": "遥看",
+        "explanation": "远远地看。"
+      },
+      {
+        "word": "挂前川",
+        "explanation": "挂在前面的河上（形容瀑布像挂着）。"
+      },
+      {
+        "word": "飞流直下",
+        "explanation": "飞快地流下来。"
+      },
+      {
+        "word": "三千尺",
+        "explanation": "三千尺高（夸张，形容瀑布高）。"
+      },
+      {
+        "word": "疑",
+        "explanation": "怀疑、好像。"
+      },
+      {
+        "word": "银河",
+        "explanation": "天河。"
+      },
+      {
+        "word": "九天",
+        "explanation": "极高的天空。"
+      }
+    ],
+    "translation": "阳光照在香炉峰上，升起紫色的烟雾。远远看去，瀑布像挂在河上。飞快地流下来三千尺高，好像是银河从极高的天空落下来。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem5",
+    "grade": 2,
+    "volume": "上册",
+    "title": "江雪",
+    "author": "柳宗元",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "千山鸟飞绝，\n万径人踪灭。\n孤舟蓑笠翁，\n独钓寒江雪。",
+    "content_array": [
+      "千山鸟飞绝，",
+      "万径人踪灭。",
+      "孤舟蓑笠翁，",
+      "独钓寒江雪。"
+    ],
+    "notes": [
+      {
+        "word": "千山",
+        "explanation": "很多山（夸张）。"
+      },
+      {
+        "word": "鸟飞绝",
+        "explanation": "鸟儿都飞走了，一只也没有。"
+      },
+      {
+        "word": "万径",
+        "explanation": "很多条路（夸张）。"
+      },
+      {
+        "word": "人踪灭",
+        "explanation": "人的脚印都没有了。"
+      },
+      {
+        "word": "孤舟",
+        "explanation": "孤单的小船。"
+      },
+      {
+        "word": "蓑笠翁",
+        "explanation": "披着蓑衣、戴着斗笠的老翁。"
+      },
+      {
+        "word": "独钓",
+        "explanation": "独自钓鱼。"
+      },
+      {
+        "word": "寒江雪",
+        "explanation": "寒冷的江面上飘着雪。"
+      }
+    ],
+    "translation": "所有的山上都没有鸟，所有的路上都没有人。江面上有一只孤单的小船，船上有位披蓑衣、戴斗笠的老翁，在寒冷的江雪中独自钓鱼。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem6",
+    "grade": 2,
+    "volume": "上册",
+    "title": "夜宿山寺",
+    "author": "李白",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "危楼高百尺，\n手可摘星辰。\n不敢高声语，\n恐惊天上人。",
+    "content_array": [
+      "危楼高百尺，",
+      "手可摘星辰。",
+      "不敢高声语，",
+      "恐惊天上人。"
+    ],
+    "notes": [
+      {
+        "word": "夜宿",
+        "explanation": "夜里住宿。"
+      },
+      {
+        "word": "山寺",
+        "explanation": "山上的寺庙。"
+      },
+      {
+        "word": "危楼",
+        "explanation": "高楼（\"危\"是\"高\"的意思）。"
+      },
+      {
+        "word": "百尺",
+        "explanation": "形容楼很高（夸张）。"
+      },
+      {
+        "word": "星辰",
+        "explanation": "星星。"
+      },
+      {
+        "word": "高声语",
+        "explanation": "大声说话。"
+      },
+      {
+        "word": "恐",
+        "explanation": "害怕、担心。"
+      },
+      {
+        "word": "惊",
+        "explanation": "惊动。"
+      },
+      {
+        "word": "天上人",
+        "explanation": "指天上的神仙。"
+      }
+    ],
+    "translation": "这座高楼非常高，站在楼上，手好像能摘到星星。不敢大声说话，怕惊动了天上的神仙。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume1_poem7",
+    "grade": 2,
+    "volume": "上册",
+    "title": "敕勒歌",
+    "author": "北朝民歌",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "敕勒川，阴山下，\n天似穹庐，笼盖四野。\n天苍苍，野茫茫，\n风吹草低见牛羊。",
+    "content_array": [
+      "敕勒川，阴山下，",
+      "天似穹庐，笼盖四野。",
+      "天苍苍，野茫茫，",
+      "风吹草低见牛羊。"
+    ],
+    "notes": [
+      {
+        "word": "敕勒川",
+        "explanation": "敕勒族生活的平原。"
+      },
+      {
+        "word": "阴山",
+        "explanation": "山脉名（在今内蒙古）。"
+      },
+      {
+        "word": "穹庐",
+        "explanation": "游牧民族的圆顶帐篷。"
+      },
+      {
+        "word": "笼盖",
+        "explanation": "像笼子一样覆盖。"
+      },
+      {
+        "word": "四野",
+        "explanation": "四方的原野。"
+      },
+      {
+        "word": "苍苍",
+        "explanation": "深蓝色。"
+      },
+      {
+        "word": "茫茫",
+        "explanation": "辽阔无边的样子。"
+      },
+      {
+        "word": "见",
+        "explanation": "同\"现\"，露出。"
+      }
+    ],
+    "translation": "敕勒族的平原，在阴山脚下，天空像圆顶帐篷，覆盖着四方原野。天空是深蓝色的，草原辽阔无边，风吹过，草弯下来，露出牛羊。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 34,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem1",
+    "grade": 2,
+    "volume": "下册",
+    "title": "村居",
+    "author": "高鼎",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "草长莺飞二月天，\n拂堤杨柳醉春烟。\n儿童散学归来早，\n忙趁东风放纸鸢。",
+    "content_array": [
+      "草长莺飞二月天，",
+      "拂堤杨柳醉春烟。",
+      "儿童散学归来早，",
+      "忙趁东风放纸鸢。"
+    ],
+    "notes": [
+      {
+        "word": "村居",
+        "explanation": "在村里居住。"
+      },
+      {
+        "word": "草长莺飞",
+        "explanation": "小草生长，黄莺飞舞(形容春天)。"
+      },
+      {
+        "word": "二月天",
+        "explanation": "农历二月（春天开始）。"
+      },
+      {
+        "word": "拂堤",
+        "explanation": "柳枝轻轻擦过堤岸。"
+      },
+      {
+        "word": "醉",
+        "explanation": "这里指柳枝像喝醉了一样（拟人）。"
+      },
+      {
+        "word": "春烟",
+        "explanation": "春天的雾气。"
+      },
+      {
+        "word": "散学",
+        "explanation": "放学。"
+      },
+      {
+        "word": "趁",
+        "explanation": "趁着。"
+      },
+      {
+        "word": "东风",
+        "explanation": "春风。"
+      },
+      {
+        "word": "纸鸢",
+        "explanation": "风筝。"
+      }
+    ],
+    "translation": "农历二月，小草生长，黄莺飞舞，柳枝轻轻擦过堤岸，像被春烟熏醉了。孩子们放学回来得早，赶紧趁着春风放风筝。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem2",
+    "grade": 2,
+    "volume": "下册",
+    "title": "咏柳",
+    "author": "贺知章",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "碧玉妆成一树高，\n万条垂下绿丝绦。\n不知细叶谁裁出，\n二月春风似剪刀。",
+    "content_array": [
+      "碧玉妆成一树高，",
+      "万条垂下绿丝绦。",
+      "不知细叶谁裁出，",
+      "二月春风似剪刀。"
+    ],
+    "notes": [
+      {
+        "word": "碧玉",
+        "explanation": "绿色的玉（比喻柳叶）。"
+      },
+      {
+        "word": "妆成",
+        "explanation": "打扮成。"
+      },
+      {
+        "word": "一树",
+        "explanation": "一整棵树。"
+      },
+      {
+        "word": "万条",
+        "explanation": "很多条（形容柳枝多）。"
+      },
+      {
+        "word": "绿丝绦",
+        "explanation": "绿色的丝带（比喻柳枝）。"
+      },
+      {
+        "word": "裁",
+        "explanation": "裁剪。"
+      },
+      {
+        "word": "似",
+        "explanation": "好像。"
+      }
+    ],
+    "translation": "柳树的叶子像碧玉，把整棵树打扮得翠绿，无数柳枝像绿色丝带垂下来。不知道这细细的柳叶是谁剪的？原来是农历二月的春风，它好像一把剪刀。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem3",
+    "grade": 2,
+    "volume": "下册",
+    "title": "晓出净慈寺送林子方",
+    "author": "杨万里",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "毕竟西湖六月中，\n风光不与四时同。\n接天莲叶无穷碧，\n映日荷花别样红。",
+    "content_array": [
+      "毕竟西湖六月中，",
+      "风光不与四时同。",
+      "接天莲叶无穷碧，",
+      "映日荷花别样红。"
+    ],
+    "notes": [
+      {
+        "word": "晓出",
+        "explanation": "早晨出来。"
+      },
+      {
+        "word": "净慈寺",
+        "explanation": "寺庙名（在今浙江杭州西湖边）。"
+      },
+      {
+        "word": "林子方",
+        "explanation": "杨万里的朋友。"
+      },
+      {
+        "word": "毕竟",
+        "explanation": "到底、终究。"
+      },
+      {
+        "word": "六月中",
+        "explanation": "农历六月的时候。"
+      },
+      {
+        "word": "四时",
+        "explanation": "四季。"
+      },
+      {
+        "word": "接天",
+        "explanation": "连接天空（形容莲叶广）。"
+      },
+      {
+        "word": "无穷碧",
+        "explanation": "无边无际的碧绿。"
+      },
+      {
+        "word": "映日",
+        "explanation": "映照在阳光下。"
+      },
+      {
+        "word": "别样红",
+        "explanation": "特别红。"
+      }
+    ],
+    "translation": "到底是西湖的六月啊，风光和四季其他时候都不一样。莲叶宽得连到天空，一片碧绿，荷花映着太阳，显得特别红。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem4",
+    "grade": 2,
+    "volume": "下册",
+    "title": "绝句",
+    "author": "杜甫",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "两个黄鹂鸣翠柳，\n一行白鹭上青天。\n窗含西岭千秋雪，\n门泊东吴万里船。",
+    "content_array": [
+      "两个黄鹂鸣翠柳，",
+      "一行白鹭上青天。",
+      "窗含西岭千秋雪，",
+      "门泊东吴万里船。"
+    ],
+    "notes": [
+      {
+        "word": "黄鹂",
+        "explanation": "黄色的莺鸟。"
+      },
+      {
+        "word": "鸣翠柳",
+        "explanation": "在绿柳树上鸣叫。"
+      },
+      {
+        "word": "白鹭",
+        "explanation": "白色的水鸟。"
+      },
+      {
+        "word": "上青天",
+        "explanation": "飞上蓝天。"
+      },
+      {
+        "word": "窗含",
+        "explanation": "窗户里能看到（像包含在窗里）。"
+      },
+      {
+        "word": "西岭",
+        "explanation": "成都西边的岷山。"
+      },
+      {
+        "word": "千秋雪",
+        "explanation": "终年不化的雪。"
+      },
+      {
+        "word": "泊",
+        "explanation": "停泊。"
+      },
+      {
+        "word": "东吴",
+        "explanation": "古代长江下游地区。"
+      },
+      {
+        "word": "万里船",
+        "explanation": "航行万里的船。"
+      }
+    ],
+    "translation": "两只黄鹂在绿柳树上鸣叫，一行白鹭飞上蓝天。从窗户能看到西岭上终年不化的雪，门口停泊着要去东吴的万里航船。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem5",
+    "grade": 2,
+    "volume": "下册",
+    "title": "悯农",
+    "author": "其一",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "春种一粒粟，\n秋收万颗子。\n四海无闲田，\n农夫犹饿死。",
+    "content_array": [
+      "春种一粒粟，",
+      "秋收万颗子。",
+      "四海无闲田，",
+      "农夫犹饿死。"
+    ],
+    "notes": [
+      {
+        "word": "春种",
+        "explanation": "春天播种。"
+      },
+      {
+        "word": "一粒粟",
+        "explanation": "一粒谷子。"
+      },
+      {
+        "word": "秋收",
+        "explanation": "秋天收获。"
+      },
+      {
+        "word": "万颗子",
+        "explanation": "很多粮食（夸张）。"
+      },
+      {
+        "word": "四海",
+        "explanation": "天下、全国。"
+      },
+      {
+        "word": "无闲田",
+        "explanation": "没有空闲的田地（都种了庄稼）。"
+      },
+      {
+        "word": "犹",
+        "explanation": "还、仍然。"
+      }
+    ],
+    "translation": "春天播下一粒谷子，秋天能收获很多粮食。天下没有一块空闲的田地，可农夫们还是会饿死。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade2_volume2_poem6",
+    "grade": 2,
+    "volume": "下册",
+    "title": "江上渔者",
+    "author": "范仲淹",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "江上往来人，\n但爱鲈鱼美。\n君看一叶舟，\n出没风波里。",
+    "content_array": [
+      "江上往来人，",
+      "但爱鲈鱼美。",
+      "君看一叶舟，",
+      "出没风波里。"
+    ],
+    "notes": [
+      {
+        "word": "江上",
+        "explanation": "长江上（或泛指江河上）。"
+      },
+      {
+        "word": "往来人",
+        "explanation": "来来往往的人（指江边的行人、食客）。"
+      },
+      {
+        "word": "但爱",
+        "explanation": "只喜爱。"
+      },
+      {
+        "word": "鲈鱼",
+        "explanation": "一种味道鲜美的鱼。"
+      },
+      {
+        "word": "君",
+        "explanation": "您（对对方的尊称）。"
+      },
+      {
+        "word": "一叶舟",
+        "explanation": "像一片叶子一样的小船（形容船小）。"
+      },
+      {
+        "word": "出没",
+        "explanation": "时而出现，时而消失（形容船在波浪中颠簸）。"
+      },
+      {
+        "word": "风波",
+        "explanation": "风浪。"
+      }
+    ],
+    "translation": "江上来来往往的人，只喜爱鲈鱼的鲜美。您看那像一片叶子一样的小船，在大风大浪中时而出现，时而消失。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade3_volume1_poem1",
+    "grade": 3,
+    "volume": "上册",
+    "title": "所见",
+    "author": "袁枚",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "牧童骑黄牛，\n歌声振林樾。\n意欲捕鸣蝉，\n忽然闭口立。",
+    "content_array": [
+      "牧童骑黄牛，",
+      "歌声振林樾。",
+      "意欲捕鸣蝉，",
+      "忽然闭口立。"
+    ],
+    "notes": [
+      {
+        "word": "牧童",
+        "explanation": "放牛的小孩。"
+      },
+      {
+        "word": "骑黄牛",
+        "explanation": "骑在黄牛背上。"
+      },
+      {
+        "word": "振",
+        "explanation": "传遍（形容歌声响亮）。"
+      },
+      {
+        "word": "林樾",
+        "explanation": "树林（\"樾\"指树荫）。"
+      },
+      {
+        "word": "意欲",
+        "explanation": "心里想要。"
+      },
+      {
+        "word": "捕",
+        "explanation": "捕捉。"
+      },
+      {
+        "word": "鸣蝉",
+        "explanation": "叫着的蝉。"
+      },
+      {
+        "word": "忽然",
+        "explanation": "突然。"
+      },
+      {
+        "word": "闭口立",
+        "explanation": "闭上嘴站着不动。"
+      }
+    ],
+    "translation": "牧童骑在黄牛背上，响亮的歌声传遍树林。心里想捕捉正在叫的蝉，突然闭上嘴，站着不动了。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem2",
+    "grade": 3,
+    "volume": "上册",
+    "title": "望洞庭",
+    "author": "刘禹锡",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "湖光秋月两相和，\n潭面无风镜未磨。\n遥望洞庭山水翠，\n白银盘里一青螺。",
+    "content_array": [
+      "湖光秋月两相和，",
+      "潭面无风镜未磨。",
+      "遥望洞庭山水翠，",
+      "白银盘里一青螺。"
+    ],
+    "notes": [
+      {
+        "word": "湖光",
+        "explanation": "湖水的波光。"
+      },
+      {
+        "word": "秋月",
+        "explanation": "秋天的月亮。"
+      },
+      {
+        "word": "两相和",
+        "explanation": "湖水和月光相互映衬，很和谐。"
+      },
+      {
+        "word": "潭面",
+        "explanation": "洞庭湖的湖面。"
+      },
+      {
+        "word": "镜未磨",
+        "explanation": "像没打磨过的镜子（形容湖面平静）。"
+      },
+      {
+        "word": "遥望",
+        "explanation": "远远地看。"
+      },
+      {
+        "word": "山水翠",
+        "explanation": "山和水都是翠绿的。"
+      },
+      {
+        "word": "白银盘",
+        "explanation": "比喻平静的洞庭湖。"
+      },
+      {
+        "word": "青螺",
+        "explanation": "比喻洞庭湖中的君山。"
+      }
+    ],
+    "translation": "洞庭湖的波光和秋月相互映衬，很和谐，湖面没风，像没打磨过的镜子一样朦胧。远远看洞庭湖的山和水都是翠绿的，洞庭湖像白银盘，君山就像盘里的青螺。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem3",
+    "grade": 3,
+    "volume": "上册",
+    "title": "山行",
+    "author": "杜牧",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "远上寒山石径斜，\n白云生处有人家。\n停车坐爱枫林晚，\n霜叶红于二月花。",
+    "content_array": [
+      "远上寒山石径斜，",
+      "白云生处有人家。",
+      "停车坐爱枫林晚，",
+      "霜叶红于二月花。"
+    ],
+    "notes": [
+      {
+        "word": "远上",
+        "explanation": "向山上远处延伸。"
+      },
+      {
+        "word": "寒山",
+        "explanation": "深秋的山（天气转凉）。"
+      },
+      {
+        "word": "石径斜",
+        "explanation": "石头小路弯弯曲曲。"
+      },
+      {
+        "word": "白云生处",
+        "explanation": "白云升起的地方（山的高处）。"
+      },
+      {
+        "word": "停车",
+        "explanation": "停下马车。"
+      },
+      {
+        "word": "坐",
+        "explanation": "因为。"
+      },
+      {
+        "word": "爱",
+        "explanation": "喜爱。"
+      },
+      {
+        "word": "枫林晚",
+        "explanation": "傍晚的枫树林。"
+      },
+      {
+        "word": "霜叶",
+        "explanation": "经霜打过的枫叶。"
+      },
+      {
+        "word": "红于",
+        "explanation": "比……更红。"
+      }
+    ],
+    "translation": "石头小路向深秋的山上延伸，弯弯曲曲，白云升起的地方有几户人家。我停下马车，因为喜爱傍晚的枫树林，经霜的枫叶比二月的花还要红。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem4",
+    "grade": 3,
+    "volume": "上册",
+    "title": "赠刘景文",
+    "author": "苏轼",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "荷尽已无擎雨盖，\n菊残犹有傲霜枝。\n一年好景君须记，\n最是橙黄橘绿时。",
+    "content_array": [
+      "荷尽已无擎雨盖，",
+      "菊残犹有傲霜枝。",
+      "一年好景君须记，",
+      "最是橙黄橘绿时。"
+    ],
+    "notes": [
+      {
+        "word": "赠",
+        "explanation": "送给。"
+      },
+      {
+        "word": "刘景文",
+        "explanation": "苏轼的朋友。"
+      },
+      {
+        "word": "荷尽",
+        "explanation": "荷花谢了。"
+      },
+      {
+        "word": "擎雨盖",
+        "explanation": "举着挡雨的盖子（比喻荷叶）。"
+      },
+      {
+        "word": "菊残",
+        "explanation": "菊花凋谢。"
+      },
+      {
+        "word": "犹有",
+        "explanation": "还有。"
+      },
+      {
+        "word": "傲霜枝",
+        "explanation": "傲对霜雪的枝条。"
+      },
+      {
+        "word": "君",
+        "explanation": "你（指刘景文）。"
+      },
+      {
+        "word": "须记",
+        "explanation": "必须记住。"
+      },
+      {
+        "word": "橙黄橘绿时",
+        "explanation": "橙子黄了、橘子绿了的时候（指秋天）。"
+      }
+    ],
+    "translation": "荷花谢了，已经没有举着挡雨的荷叶；菊花凋谢了，还有傲对霜雪的枝条。一年的好景色你必须记住，最是橙子黄了、橘子绿了的时候。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem5",
+    "grade": 3,
+    "volume": "上册",
+    "title": "夜书所见",
+    "author": "叶绍翁",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "萧萧梧叶送寒声，\n江上秋风动客情。\n知有儿童挑促织，\n夜深篱落一灯明。",
+    "content_array": [
+      "萧萧梧叶送寒声，",
+      "江上秋风动客情。",
+      "知有儿童挑促织，",
+      "夜深篱落一灯明。"
+    ],
+    "notes": [
+      {
+        "word": "萧萧",
+        "explanation": "风吹梧桐叶的声音。"
+      },
+      {
+        "word": "梧叶",
+        "explanation": "梧桐树的叶子。"
+      },
+      {
+        "word": "送寒声",
+        "explanation": "送来寒冷的感觉。"
+      },
+      {
+        "word": "秋风",
+        "explanation": "秋天的风。"
+      },
+      {
+        "word": "动客情",
+        "explanation": "触动游子的思乡情（\"客\"指离开家乡的人）。"
+      },
+      {
+        "word": "知有",
+        "explanation": "料想有。"
+      },
+      {
+        "word": "挑促织",
+        "explanation": "用细棍拨弄蟋蟀（\"促织\"即蟋蟀）。"
+      },
+      {
+        "word": "篱落",
+        "explanation": "篱笆。"
+      },
+      {
+        "word": "一灯明",
+        "explanation": "一盏灯亮着。"
+      }
+    ],
+    "translation": "风吹梧桐叶，发出萧萧声，送来寒意，江面上的秋风触动了我的思乡情。料想家里小孩正在拨弄蟋蟀，夜深了，篱笆边还有一盏灯亮着。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem6",
+    "grade": 3,
+    "volume": "上册",
+    "title": "饮湖上初晴后雨",
+    "author": "苏轼",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "水光潋滟晴方好，\n山色空蒙雨亦奇。\n欲把西湖比西子，\n淡妆浓抹总相宜。",
+    "content_array": [
+      "水光潋滟晴方好，",
+      "山色空蒙雨亦奇。",
+      "欲把西湖比西子，",
+      "淡妆浓抹总相宜。"
+    ],
+    "notes": [
+      {
+        "word": "饮湖上",
+        "explanation": "在西湖上饮酒。"
+      },
+      {
+        "word": "初晴后雨",
+        "explanation": "先晴后下雨。"
+      },
+      {
+        "word": "潋滟",
+        "explanation": "形容波光闪动的样子。"
+      },
+      {
+        "word": "晴方好",
+        "explanation": "晴天时正好看。"
+      },
+      {
+        "word": "空蒙",
+        "explanation": "形容山被雾气笼罩的样子。"
+      },
+      {
+        "word": "雨亦奇",
+        "explanation": "下雨时也很奇妙。"
+      },
+      {
+        "word": "西子",
+        "explanation": "西施（古代美女）。"
+      },
+      {
+        "word": "淡妆",
+        "explanation": "淡雅的妆。"
+      },
+      {
+        "word": "浓抹",
+        "explanation": "浓重的妆。"
+      },
+      {
+        "word": "总相宜",
+        "explanation": "总是很合适、很美。"
+      }
+    ],
+    "translation": "在西湖上饮酒，先晴后下雨。晴天时，湖水波光闪动，很美；下雨时，山被雾气笼罩，很奇妙。想把西湖比作西施，不管是淡雅还是浓重的妆，都很美。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem7",
+    "grade": 3,
+    "volume": "上册",
+    "title": "望天门山",
+    "author": "李白",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "天门中断楚江开，\n碧水东流至此回。\n两岸青山相对出，\n孤帆一片日边来。",
+    "content_array": [
+      "天门中断楚江开，",
+      "碧水东流至此回。",
+      "两岸青山相对出，",
+      "孤帆一片日边来。"
+    ],
+    "notes": [
+      {
+        "word": "天门",
+        "explanation": "天门山（在今安徽，长江从中穿过）。"
+      },
+      {
+        "word": "中断",
+        "explanation": "从中间断开。"
+      },
+      {
+        "word": "楚江",
+        "explanation": "长江（古代长江中下游属楚国）。"
+      },
+      {
+        "word": "开",
+        "explanation": "分开、打开。"
+      },
+      {
+        "word": "碧水",
+        "explanation": "碧绿的江水。"
+      },
+      {
+        "word": "至此回",
+        "explanation": "到这里回旋转弯。"
+      },
+      {
+        "word": "相对出",
+        "explanation": "相对着出现（船行时山像迎面走来）。"
+      },
+      {
+        "word": "孤帆",
+        "explanation": "孤单的帆船。"
+      },
+      {
+        "word": "日边来",
+        "explanation": "从太阳升起的地方驶来。"
+      }
+    ],
+    "translation": "天门山被长江从中间断开，像被楚江打开一样，碧绿的江水向东流到这里就回旋。两岸的青山相对着出现，一只孤单的帆船从太阳升起的地方驶来。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume1_poem8",
+    "grade": 3,
+    "volume": "上册",
+    "title": "采莲曲",
+    "author": "王昌龄",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "荷叶罗裙一色裁，\n芙蓉向脸两边开。\n乱入池中看不见，\n闻歌始觉有人来。",
+    "content_array": [
+      "荷叶罗裙一色裁，",
+      "芙蓉向脸两边开。",
+      "乱入池中看不见，",
+      "闻歌始觉有人来。"
+    ],
+    "notes": [
+      {
+        "word": "罗裙",
+        "explanation": "丝织品做的裙子（指采莲女的裙子）。"
+      },
+      {
+        "word": "一色裁",
+        "explanation": "像用同一种颜色裁剪的（荷叶和裙子都是绿的）。"
+      },
+      {
+        "word": "芙蓉",
+        "explanation": "荷花（指采莲女的脸和荷花一样红）。"
+      },
+      {
+        "word": "向脸两边开",
+        "explanation": "荷花对着脸两边开放。"
+      },
+      {
+        "word": "乱入",
+        "explanation": "杂乱地进入（采莲女混入荷花丛）。"
+      },
+      {
+        "word": "看不见",
+        "explanation": "分不清（因为裙子和荷叶同色）。"
+      },
+      {
+        "word": "闻歌",
+        "explanation": "听到歌声。"
+      },
+      {
+        "word": "始觉",
+        "explanation": "才发觉、才知道。"
+      }
+    ],
+    "translation": "采莲女的绿裙子和荷叶像同一种颜色裁的，荷花对着她的脸两边开放。她混入荷花池里，分不清谁是荷叶谁是裙子，直到听到歌声，才知道有人来采莲了。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade3_volume2_poem1",
+    "grade": 3,
+    "volume": "下册",
+    "title": "绝句",
+    "author": "杜甫",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "迟日江山丽，\n春风花草香。\n泥融飞燕子，\n沙暖睡鸳鸯。",
+    "content_array": [
+      "迟日江山丽，",
+      "春风花草香。",
+      "泥融飞燕子，",
+      "沙暖睡鸳鸯。"
+    ],
+    "notes": [
+      {
+        "word": "迟日",
+        "explanation": "春天白天渐长（\"迟\"指变长）。"
+      },
+      {
+        "word": "江山丽",
+        "explanation": "江河山川很美丽。"
+      },
+      {
+        "word": "花草香",
+        "explanation": "花儿和草的香气。"
+      },
+      {
+        "word": "泥融",
+        "explanation": "泥土融化变软（春天变暖）。"
+      },
+      {
+        "word": "飞燕子",
+        "explanation": "燕子飞来飞去（忙着筑巢）。"
+      },
+      {
+        "word": "沙暖",
+        "explanation": "沙滩温暖（阳光照晒）。"
+      },
+      {
+        "word": "鸳鸯",
+        "explanation": "水鸟，常成对活动。"
+      }
+    ],
+    "translation": "春天白天渐长，江河山川很美丽，春风吹来，带着花草的香气。融化的泥土上，燕子飞来飞去，温暖的沙滩上，鸳鸯在睡觉。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 1
+  },
+  {
+    "id": "grade3_volume2_poem2",
+    "grade": 3,
+    "volume": "下册",
+    "title": "惠崇春江晚景",
+    "author": "苏轼",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "竹外桃花三两枝，\n春江水暖鸭先知。\n蒌蒿满地芦芽短，\n正是河豚欲上时。",
+    "content_array": [
+      "竹外桃花三两枝，",
+      "春江水暖鸭先知。",
+      "蒌蒿满地芦芽短，",
+      "正是河豚欲上时。"
+    ],
+    "notes": [
+      {
+        "word": "惠崇",
+        "explanation": "北宋画家（这首诗是为他的画题的）。"
+      },
+      {
+        "word": "竹外",
+        "explanation": "竹林外面。"
+      },
+      {
+        "word": "三两枝",
+        "explanation": "两三枝（形容桃花刚开）。"
+      },
+      {
+        "word": "水暖",
+        "explanation": "江水变暖。"
+      },
+      {
+        "word": "鸭先知",
+        "explanation": "鸭子最先知道（鸭子常下水，先感受到暖意）。"
+      },
+      {
+        "word": "蒌蒿",
+        "explanation": "一种可吃的草本植物。"
+      },
+      {
+        "word": "芦芽",
+        "explanation": "芦苇的嫩芽。"
+      },
+      {
+        "word": "河豚",
+        "explanation": "一种鱼（肉鲜但有毒，春天逆流而上产卵）。"
+      },
+      {
+        "word": "欲上时",
+        "explanation": "正要逆流而上的时候。"
+      }
+    ],
+    "translation": "竹林外面有两三枝桃花开了，春江水变暖，鸭子最先知道。蒌蒿到处都是，芦苇嫩芽刚长出，正是河豚正要逆流而上的时候。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume2_poem3",
+    "grade": 3,
+    "volume": "下册",
+    "title": "三衢道中",
+    "author": "曾几",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "梅子黄时日日晴，\n小溪泛尽却山行。\n绿阴不减来时路，\n添得黄鹂四五声。",
+    "content_array": [
+      "梅子黄时日日晴，",
+      "小溪泛尽却山行。",
+      "绿阴不减来时路，",
+      "添得黄鹂四五声。"
+    ],
+    "notes": [
+      {
+        "word": "三衢",
+        "explanation": "三衢山（在今浙江）。"
+      },
+      {
+        "word": "道中",
+        "explanation": "在路上。"
+      },
+      {
+        "word": "梅子黄时",
+        "explanation": "梅子成熟变黄的时节（农历五月）。"
+      },
+      {
+        "word": "日日晴",
+        "explanation": "每天都是晴天（梅雨季节难得晴天）。"
+      },
+      {
+        "word": "泛尽",
+        "explanation": "乘船到小溪尽头（\"泛\"指乘船）。"
+      },
+      {
+        "word": "却山行",
+        "explanation": "再走山路（\"却\"是\"再\"的意思）。"
+      },
+      {
+        "word": "绿阴",
+        "explanation": "绿色的树荫。"
+      },
+      {
+        "word": "不减",
+        "explanation": "没有减少（和来时一样浓）。"
+      },
+      {
+        "word": "添得",
+        "explanation": "增添了。"
+      },
+      {
+        "word": "黄鹂",
+        "explanation": "黄色的莺鸟。"
+      }
+    ],
+    "translation": "梅子成熟变黄时，每天都是晴天，我乘船到小溪尽头，再走山路。绿色的树荫和来时一样浓，还多了几声黄鹂的鸣叫。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume2_poem4",
+    "grade": 3,
+    "volume": "下册",
+    "title": "忆江南",
+    "author": "白居易",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "江南好，风景旧曾谙。\n日出江花红胜火，\n春来江水绿如蓝。\n能不忆江南？",
+    "content_array": [
+      "江南好，风景旧曾谙。",
+      "日出江花红胜火，",
+      "春来江水绿如蓝。",
+      "能不忆江南？"
+    ],
+    "notes": [
+      {
+        "word": "忆江南",
+        "explanation": "词牌名（\"忆\"是\"回忆\"）。"
+      },
+      {
+        "word": "好",
+        "explanation": "好啊、美丽。"
+      },
+      {
+        "word": "旧曾谙",
+        "explanation": "以前曾经熟悉。"
+      },
+      {
+        "word": "江花",
+        "explanation": "江边的花。"
+      },
+      {
+        "word": "红胜火",
+        "explanation": "比火还红。"
+      },
+      {
+        "word": "绿如蓝",
+        "explanation": "绿得像蓝草（\"蓝\"是一种可做染料的草）。"
+      },
+      {
+        "word": "能不",
+        "explanation": "怎么能不（表反问，强调肯定）。"
+      }
+    ],
+    "translation": "江南好啊，那里的风景我以前很熟悉。太阳升起时，江边的花比火还红，春天来临时，江水绿得像蓝草。怎么能不回忆江南呢？",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade3_volume2_poem5",
+    "grade": 3,
+    "volume": "下册",
+    "title": "滁州西涧",
+    "author": "韦应物",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "独怜幽草涧边生，\n上有黄鹂深树鸣。\n春潮带雨晚来急，\n野渡无人舟自横。",
+    "content_array": [
+      "独怜幽草涧边生，",
+      "上有黄鹂深树鸣。",
+      "春潮带雨晚来急，",
+      "野渡无人舟自横。"
+    ],
+    "notes": [
+      {
+        "word": "滁州",
+        "explanation": "地名（在今安徽）。"
+      },
+      {
+        "word": "西涧",
+        "explanation": "滁州城西的小溪。"
+      },
+      {
+        "word": "独怜",
+        "explanation": "唯独喜爱（\"怜\"是\"喜爱\"）。"
+      },
+      {
+        "word": "幽草",
+        "explanation": "生长在幽静地方的草。"
+      },
+      {
+        "word": "涧边生",
+        "explanation": "长在小溪边。"
+      },
+      {
+        "word": "深树",
+        "explanation": "树叶茂密的树。"
+      },
+      {
+        "word": "春潮",
+        "explanation": "春天的潮水（春雨后溪水上涨）。"
+      },
+      {
+        "word": "带雨",
+        "explanation": "夹着雨。"
+      },
+      {
+        "word": "晚来急",
+        "explanation": "傍晚来得很急促。"
+      },
+      {
+        "word": "野渡",
+        "explanation": "野外的渡口（没人管理的渡口）。"
+      },
+      {
+        "word": "舟自横",
+        "explanation": "小船独自横在水面上。"
+      }
+    ],
+    "translation": "我唯独喜爱小溪边幽静的草，草上面有黄鹂在茂密的树上鸣叫。春天的潮水夹着雨，傍晚来得很急促，野外的渡口没人，小船独自横在水面上。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade3_volume2_poem6",
+    "grade": 3,
+    "volume": "下册",
+    "title": "清明",
+    "author": "杜牧",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "清明时节雨纷纷，\n路上行人欲断魂。\n借问酒家何处有？\n牧童遥指杏花村。",
+    "content_array": [
+      "清明时节雨纷纷，",
+      "路上行人欲断魂。",
+      "借问酒家何处有？",
+      "牧童遥指杏花村。"
+    ],
+    "notes": [
+      {
+        "word": "清明",
+        "explanation": "二十四节气之一（公历4月4或5日，有扫墓、踏青习俗）。"
+      },
+      {
+        "word": "雨纷纷",
+        "explanation": "雨下得密而细。"
+      },
+      {
+        "word": "行人",
+        "explanation": "路上的人（指扫墓或踏青的人）。"
+      },
+      {
+        "word": "欲断魂",
+        "explanation": "形容心情悲伤、愁苦。"
+      },
+      {
+        "word": "借问",
+        "explanation": "向人打听。"
+      },
+      {
+        "word": "酒家",
+        "explanation": "卖酒的店铺。"
+      },
+      {
+        "word": "遥指",
+        "explanation": "远远地指着。"
+      },
+      {
+        "word": "杏花村",
+        "explanation": "开满杏花的村子（指有酒家的地方）。"
+      }
+    ],
+    "translation": "清明的时候，雨下得纷纷扬扬，路上的人心情悲伤，像丢了魂一样。向人打听哪里有卖酒的地方，放牛的小孩远远指着开满杏花的村子。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 1
+  },
+  {
+    "id": "grade3_volume2_poem7",
+    "grade": 3,
+    "volume": "下册",
+    "title": "九月九日忆山东兄弟",
+    "author": "王维",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "独在异乡为异客，\n每逢佳节倍思亲。\n遥知兄弟登高处，\n遍插茱萸少一人。",
+    "content_array": [
+      "独在异乡为异客，",
+      "每逢佳节倍思亲。",
+      "遥知兄弟登高处，",
+      "遍插茱萸少一人。"
+    ],
+    "notes": [
+      {
+        "word": "九月九日",
+        "explanation": "农历九月初九（重阳节，有登高、插茱萸习俗）。"
+      },
+      {
+        "word": "忆",
+        "explanation": "思念。"
+      },
+      {
+        "word": "山东",
+        "explanation": "华山以东（王维家乡在华山以东）。"
+      },
+      {
+        "word": "独",
+        "explanation": "独自。"
+      },
+      {
+        "word": "异乡",
+        "explanation": "外地。"
+      },
+      {
+        "word": "异客",
+        "explanation": "在外地的客人。"
+      },
+      {
+        "word": "每逢",
+        "explanation": "每当遇到。"
+      },
+      {
+        "word": "佳节",
+        "explanation": "美好的节日（指重阳节）。"
+      },
+      {
+        "word": "倍思亲",
+        "explanation": "更加思念亲人。"
+      },
+      {
+        "word": "登高处",
+        "explanation": "登上高处（重阳节习俗）。"
+      },
+      {
+        "word": "茱萸",
+        "explanation": "一种有香气的植物（插茱萸辟邪）。"
+      },
+      {
+        "word": "少一人",
+        "explanation": "少了自己（指自己不在家乡）。"
+      }
+    ],
+    "translation": "独自在外地做客人，每当遇到佳节，就更加思念亲人。远远知道家乡的兄弟在登高，到处插着茱萸，只少了我一个人。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem1",
+    "grade": 4,
+    "volume": "上册",
+    "title": "暮江吟",
+    "author": "白居易",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "一道残阳铺水中，\n半江瑟瑟半江红。\n可怜九月初三夜，\n露似真珠月似弓。",
+    "content_array": [
+      "一道残阳铺水中，",
+      "半江瑟瑟半江红。",
+      "可怜九月初三夜，",
+      "露似真珠月似弓。"
+    ],
+    "notes": [
+      {
+        "word": "暮江",
+        "explanation": "傍晚的长江。"
+      },
+      {
+        "word": "吟",
+        "explanation": "古代诗歌体裁。"
+      },
+      {
+        "word": "残阳",
+        "explanation": "快要落山的太阳。"
+      },
+      {
+        "word": "铺水中",
+        "explanation": "平铺在水面上（形容阳光柔和）。"
+      },
+      {
+        "word": "瑟瑟",
+        "explanation": "碧绿色。"
+      },
+      {
+        "word": "半江红",
+        "explanation": "一半江水呈红色（被夕阳照的）。"
+      },
+      {
+        "word": "可怜",
+        "explanation": "可爱（不是\"可怜\"的意思）。"
+      },
+      {
+        "word": "九月初三",
+        "explanation": "农历九月初三。"
+      },
+      {
+        "word": "真珠",
+        "explanation": "即\"珍珠\"。"
+      },
+      {
+        "word": "月似弓",
+        "explanation": "月亮像弯弓（初三的月亮是新月）。"
+      }
+    ],
+    "translation": "傍晚，一道残阳平铺在江面上，一半江水碧绿，一半江水通红。可爱的农历九月初三夜晚，露水像珍珠一样亮，月亮像弯弓一样挂在天上。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem2",
+    "grade": 4,
+    "volume": "上册",
+    "title": "题西林壁",
+    "author": "苏轼",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "横看成岭侧成峰，\n远近高低各不同。\n不识庐山真面目，\n只缘身在此山中。",
+    "content_array": [
+      "横看成岭侧成峰，",
+      "远近高低各不同。",
+      "不识庐山真面目，",
+      "只缘身在此山中。"
+    ],
+    "notes": [
+      {
+        "word": "题",
+        "explanation": "书写、题写（写在西林壁上）。"
+      },
+      {
+        "word": "西林",
+        "explanation": "西林寺（在今江西庐山）。"
+      },
+      {
+        "word": "横看",
+        "explanation": "从正面看。"
+      },
+      {
+        "word": "成岭",
+        "explanation": "变成山岭。"
+      },
+      {
+        "word": "侧",
+        "explanation": "从侧面看。"
+      },
+      {
+        "word": "成峰",
+        "explanation": "变成山峰。"
+      },
+      {
+        "word": "远近高低",
+        "explanation": "从远、近、高、低处看。"
+      },
+      {
+        "word": "各不同",
+        "explanation": "各不相同。"
+      },
+      {
+        "word": "真面目",
+        "explanation": "真实的样子（指庐山整体模样）。"
+      },
+      {
+        "word": "只缘",
+        "explanation": "只因为。"
+      },
+      {
+        "word": "身在此山中",
+        "explanation": "自己就在这座山里。"
+      }
+    ],
+    "translation": "从正面看庐山是山岭，从侧面看是山峰，从远、近、高、低处看，样子都不同。看不清庐山的真实样子，只因为自己就在这座山里。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem3",
+    "grade": 4,
+    "volume": "上册",
+    "title": "雪梅",
+    "author": "卢钺",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "梅雪争春未肯降，\n骚人搁笔费评章。\n梅须逊雪三分白，\n雪却输梅一段香。",
+    "content_array": [
+      "梅雪争春未肯降，",
+      "骚人搁笔费评章。",
+      "梅须逊雪三分白，",
+      "雪却输梅一段香。"
+    ],
+    "notes": [
+      {
+        "word": "梅雪争春",
+        "explanation": "梅花和雪花争夺春天的美景。"
+      },
+      {
+        "word": "未肯降",
+        "explanation": "不肯认输。"
+      },
+      {
+        "word": "骚人",
+        "explanation": "诗人（\"骚\"原指《离骚》，后代指诗歌和诗人）。"
+      },
+      {
+        "word": "搁笔",
+        "explanation": "放下笔。"
+      },
+      {
+        "word": "费评章",
+        "explanation": "费力地评判（评判梅和雪的高下）。"
+      },
+      {
+        "word": "逊",
+        "explanation": "比不上、不如。"
+      },
+      {
+        "word": "三分白",
+        "explanation": "三分的洁白。"
+      },
+      {
+        "word": "输",
+        "explanation": "输给、比不上。"
+      },
+      {
+        "word": "一段香",
+        "explanation": "一段香气。"
+      }
+    ],
+    "translation": "梅花和雪花争夺春天的美景，谁也不肯认输，诗人们放下笔，费力地评判它们的高下。梅花比不上雪花的三分洁白，雪花却输给了梅花的一段香气。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem4",
+    "grade": 4,
+    "volume": "上册",
+    "title": "嫦娥",
+    "author": "李商隐",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "云母屏风烛影深，\n长河渐落晓星沉。\n嫦娥应悔偷灵药，\n碧海青天夜夜心。",
+    "content_array": [
+      "云母屏风烛影深，",
+      "长河渐落晓星沉。",
+      "嫦娥应悔偷灵药，",
+      "碧海青天夜夜心。"
+    ],
+    "notes": [
+      {
+        "word": "嫦娥",
+        "explanation": "神话中的仙女（偷吃仙药飞到月宫）。"
+      },
+      {
+        "word": "云母屏风",
+        "explanation": "用云母做的屏风（云母是一种透明矿物）。"
+      },
+      {
+        "word": "烛影深",
+        "explanation": "蜡烛的影子很深（蜡烛快燃尽了）。"
+      },
+      {
+        "word": "长河",
+        "explanation": "天上的银河。"
+      },
+      {
+        "word": "渐落",
+        "explanation": "渐渐消失。"
+      },
+      {
+        "word": "晓星沉",
+        "explanation": "早晨的星星沉下去（天快亮了）。"
+      },
+      {
+        "word": "应悔",
+        "explanation": "应该后悔。"
+      },
+      {
+        "word": "偷灵药",
+        "explanation": "偷吃仙药（指偷吃丈夫后羿的长生不老药）。"
+      },
+      {
+        "word": "碧海青天",
+        "explanation": "蓝色的天空像大海一样辽阔（形容月宫冷清）。"
+      },
+      {
+        "word": "夜夜心",
+        "explanation": "每天夜里都孤独。"
+      }
+    ],
+    "translation": "云母屏风后，蜡烛的影子很深，银河渐渐消失，早晨的星星沉了下去。嫦娥应该后悔偷吃了仙药，在辽阔的蓝天下，每天夜里都很孤独。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem5",
+    "grade": 4,
+    "volume": "上册",
+    "title": "出塞",
+    "author": "王昌龄",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "秦时明月汉时关，\n万里长征人未还。\n但使龙城飞将在，\n不教胡马度阴山。",
+    "content_array": [
+      "秦时明月汉时关，",
+      "万里长征人未还。",
+      "但使龙城飞将在，",
+      "不教胡马度阴山。"
+    ],
+    "notes": [
+      {
+        "word": "出塞",
+        "explanation": "古代诗歌体裁（写边塞生活）。"
+      },
+      {
+        "word": "秦时明月汉时关",
+        "explanation": "秦汉时的明月，秦汉时的边关（表时间久远）。"
+      },
+      {
+        "word": "万里长征",
+        "explanation": "长途征战（\"万里\"夸张）。"
+      },
+      {
+        "word": "人未还",
+        "explanation": "出征的人还没回来。"
+      },
+      {
+        "word": "但使",
+        "explanation": "只要有。"
+      },
+      {
+        "word": "龙城飞将",
+        "explanation": "指汉朝名将李广（勇猛善战，驻守龙城）。"
+      },
+      {
+        "word": "不教",
+        "explanation": "不让、不使。"
+      },
+      {
+        "word": "胡马",
+        "explanation": "北方少数民族的骑兵（\"胡\"指北方少数民族）。"
+      },
+      {
+        "word": "度阴山",
+        "explanation": "越过阴山（阴山是古代边关屏障）。"
+      }
+    ],
+    "translation": "秦汉时的明月，秦汉时的边关，长途征战的人还没回来。只要有龙城飞将军李广在，就不会让北方少数民族的骑兵越过阴山。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem6",
+    "grade": 4,
+    "volume": "上册",
+    "title": "凉州词",
+    "author": "王翰",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "葡萄美酒夜光杯，\n欲饮琵琶马上催。\n醉卧沙场君莫笑，\n古来征战几人回？",
+    "content_array": [
+      "葡萄美酒夜光杯，",
+      "欲饮琵琶马上催。",
+      "醉卧沙场君莫笑，",
+      "古来征战几人回？"
+    ],
+    "notes": [
+      {
+        "word": "凉州词",
+        "explanation": "古代诗歌体裁（写边塞生活）。"
+      },
+      {
+        "word": "葡萄美酒",
+        "explanation": "用葡萄酿的酒（西域传入中原）。"
+      },
+      {
+        "word": "夜光杯",
+        "explanation": "白玉做的酒杯（据说夜里能发光）。"
+      },
+      {
+        "word": "欲饮",
+        "explanation": "想要喝酒。"
+      },
+      {
+        "word": "琵琶",
+        "explanation": "一种弹拨乐器（边塞常用）。"
+      },
+      {
+        "word": "马上催",
+        "explanation": "在马上弹奏，催促喝酒。"
+      },
+      {
+        "word": "醉卧",
+        "explanation": "喝醉了躺下。"
+      },
+      {
+        "word": "沙场",
+        "explanation": "战场（边塞多沙漠，故称沙场）。"
+      },
+      {
+        "word": "君莫笑",
+        "explanation": "您不要笑话。"
+      },
+      {
+        "word": "古来",
+        "explanation": "自古以来。"
+      },
+      {
+        "word": "几人回",
+        "explanation": "几个人能回来（指战争残酷）。"
+      }
+    ],
+    "translation": "葡萄美酒倒在白玉夜光杯里，正要喝酒，马上传来琵琶声，催促举杯。喝醉了躺在战场上，您不要笑话，自古以来，打仗的人有几个能活着回来呢？",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem7",
+    "grade": 4,
+    "volume": "上册",
+    "title": "夏日绝句",
+    "author": "李清照",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "生当作人杰，\n死亦为鬼雄。\n至今思项羽，\n不肯过江东。",
+    "content_array": [
+      "生当作人杰，",
+      "死亦为鬼雄。",
+      "至今思项羽，",
+      "不肯过江东。"
+    ],
+    "notes": [
+      {
+        "word": "人杰",
+        "explanation": "人中的豪杰（才能出众、品格高尚的人）。"
+      },
+      {
+        "word": "亦",
+        "explanation": "也。"
+      },
+      {
+        "word": "鬼雄",
+        "explanation": "鬼中的英雄。"
+      },
+      {
+        "word": "至今",
+        "explanation": "到现在。"
+      },
+      {
+        "word": "思",
+        "explanation": "思念、怀念。"
+      },
+      {
+        "word": "项羽",
+        "explanation": "秦末农民起义领袖（楚汉之争失败后，不肯渡江苟活，自刎而死）。"
+      },
+      {
+        "word": "不肯过江东",
+        "explanation": "不肯渡过长江回到江东（江东是项羽的家乡）。"
+      }
+    ],
+    "translation": "活着要做人中的豪杰，死了也要做鬼中的英雄。到现在人们还怀念项羽，因为他不肯渡江回到江东苟活。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume1_poem8",
+    "grade": 4,
+    "volume": "上册",
+    "title": "别董大",
+    "author": "高适",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "千里黄云白日曛，\n北风吹雁雪纷纷。\n莫愁前路无知己，\n天下谁人不识君？",
+    "content_array": [
+      "千里黄云白日曛，",
+      "北风吹雁雪纷纷。",
+      "莫愁前路无知己，",
+      "天下谁人不识君？"
+    ],
+    "notes": [
+      {
+        "word": "别董大",
+        "explanation": "送别董大（\"董大\"是琴师董庭兰，高适的朋友）。"
+      },
+      {
+        "word": "千里黄云",
+        "explanation": "千里的黄色云（沙漠地区的景象，云因沙尘呈黄色）。"
+      },
+      {
+        "word": "白日曛",
+        "explanation": "太阳被云遮得昏暗。"
+      },
+      {
+        "word": "吹雁",
+        "explanation": "吹着大雁（大雁冬天南飞）。"
+      },
+      {
+        "word": "雪纷纷",
+        "explanation": "雪下得纷纷扬扬。"
+      },
+      {
+        "word": "莫愁",
+        "explanation": "不要担心。"
+      },
+      {
+        "word": "前路",
+        "explanation": "前面的路（指未来的旅途）。"
+      },
+      {
+        "word": "知己",
+        "explanation": "知心朋友。"
+      },
+      {
+        "word": "谁人",
+        "explanation": "哪个人。"
+      },
+      {
+        "word": "不识君",
+        "explanation": "不认识您（指董大名气大）。"
+      }
+    ],
+    "translation": "千里的黄云遮住太阳，天色昏暗，北风吹着大雁，雪下得纷纷扬扬。不要担心前面的路没有知心朋友，全天下哪个人不认识您呢？",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem1",
+    "grade": 4,
+    "volume": "下册",
+    "title": "四时田园杂兴",
+    "author": "范成大",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "梅子金黄杏子肥，\n麦花雪白菜花稀。\n日长篱落无人过，\n惟有蜻蜓蛱蝶飞。",
+    "content_array": [
+      "梅子金黄杏子肥，",
+      "麦花雪白菜花稀。",
+      "日长篱落无人过，",
+      "惟有蜻蜓蛱蝶飞。"
+    ],
+    "notes": [
+      {
+        "word": "四时田园杂兴",
+        "explanation": "组诗名（\"四时\"指四季，\"田园\"指农村）。"
+      },
+      {
+        "word": "梅子金黄",
+        "explanation": "梅子成熟呈金黄色。"
+      },
+      {
+        "word": "杏子肥",
+        "explanation": "杏子长得饱满肥大。"
+      },
+      {
+        "word": "麦花雪白",
+        "explanation": "麦子的花像雪一样白。"
+      },
+      {
+        "word": "菜花稀",
+        "explanation": "油菜花已经很少了（春天开，夏天快谢了）。"
+      },
+      {
+        "word": "日长",
+        "explanation": "夏天白天变长。"
+      },
+      {
+        "word": "篱落",
+        "explanation": "篱笆。"
+      },
+      {
+        "word": "无人过",
+        "explanation": "没有人经过（人们都在田里劳动）。"
+      },
+      {
+        "word": "惟有",
+        "explanation": "只有。"
+      },
+      {
+        "word": "蛱蝶",
+        "explanation": "蝴蝶的一种。"
+      }
+    ],
+    "translation": "梅子成熟金黄，杏子长得饱满，麦花雪白，油菜花已经稀少。夏天白天变长，篱笆边没有人经过，只有蜻蜓和蝴蝶在飞来飞去。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem2",
+    "grade": 4,
+    "volume": "下册",
+    "title": "宿新市徐公店",
+    "author": "杨万里",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "篱落疏疏一径深，\n树头新绿未成阴。\n儿童急走追黄蝶，\n飞入菜花无处寻。",
+    "content_array": [
+      "篱落疏疏一径深，",
+      "树头新绿未成阴。",
+      "儿童急走追黄蝶，",
+      "飞入菜花无处寻。"
+    ],
+    "notes": [
+      {
+        "word": "宿",
+        "explanation": "住宿（\"宿\"读sù）。"
+      },
+      {
+        "word": "新市",
+        "explanation": "地名（在今浙江）。"
+      },
+      {
+        "word": "徐公店",
+        "explanation": "姓徐的人开的旅店。"
+      },
+      {
+        "word": "篱落",
+        "explanation": "篱笆。"
+      },
+      {
+        "word": "疏疏",
+        "explanation": "稀疏的样子。"
+      },
+      {
+        "word": "一径深",
+        "explanation": "一条小路通向深处。"
+      },
+      {
+        "word": "树头",
+        "explanation": "树枝上。"
+      },
+      {
+        "word": "新绿",
+        "explanation": "刚长出的绿叶。"
+      },
+      {
+        "word": "未成阴",
+        "explanation": "还没形成树荫。"
+      },
+      {
+        "word": "急走",
+        "explanation": "快跑（\"走\"在古代指\"跑\"）。"
+      },
+      {
+        "word": "追",
+        "explanation": "追赶。"
+      },
+      {
+        "word": "黄蝶",
+        "explanation": "黄色的蝴蝶。"
+      },
+      {
+        "word": "无处寻",
+        "explanation": "没有地方找（蝶和菜花同色，分不清）。"
+      }
+    ],
+    "translation": "新市徐公店的篱笆很稀疏，一条小路通向深处。树枝上刚长的绿叶还没形成树荫，小孩快跑着追黄色蝴蝶。蝴蝶飞进黄色的油菜花里，再也找不到了。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem3",
+    "grade": 4,
+    "volume": "下册",
+    "title": "清平乐·村居",
+    "author": "辛弃疾",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "茅檐低小，溪上青青草。\n醉里吴音相媚好，白发谁家翁媪？\n大儿锄豆溪东，中儿正织鸡笼。\n最喜小儿亡赖，溪头卧剥莲蓬。",
+    "content_array": [
+      "茅檐低小，溪上青青草。",
+      "醉里吴音相媚好，白发谁家翁媪？",
+      "大儿锄豆溪东，中儿正织鸡笼。",
+      "最喜小儿亡赖，溪头卧剥莲蓬。"
+    ],
+    "notes": [
+      {
+        "word": "清平乐",
+        "explanation": "词牌名。"
+      },
+      {
+        "word": "村居",
+        "explanation": "题目（写农村生活）。"
+      },
+      {
+        "word": "茅檐",
+        "explanation": "茅草盖的屋檐（代指茅草屋）。"
+      },
+      {
+        "word": "低小",
+        "explanation": "又低又小。"
+      },
+      {
+        "word": "吴音",
+        "explanation": "吴地的方言（江南地区的方言）。"
+      },
+      {
+        "word": "相媚好",
+        "explanation": "相互逗趣、亲热。"
+      },
+      {
+        "word": "翁媪",
+        "explanation": "老翁和老妇。"
+      },
+      {
+        "word": "锄豆",
+        "explanation": "给豆子除草。"
+      },
+      {
+        "word": "溪东",
+        "explanation": "小溪东边。"
+      },
+      {
+        "word": "中儿",
+        "explanation": "二儿子。"
+      },
+      {
+        "word": "织鸡笼",
+        "explanation": "编织鸡笼。"
+      },
+      {
+        "word": "亡赖",
+        "explanation": "顽皮、淘气（\"亡\"同\"无\"，这里是褒义）。"
+      },
+      {
+        "word": "卧",
+        "explanation": "躺卧。"
+      },
+      {
+        "word": "剥莲蓬",
+        "explanation": "剥莲子（\"莲蓬\"是荷花的果实）。"
+      }
+    ],
+    "translation": "茅草屋的屋檐又低又小，小溪边长满碧绿的草。喝醉了用吴地方言说笑逗趣，那白发苍苍的老翁老妇是谁家的？大儿子在小溪东边给豆子除草，二儿子正在编鸡笼。最喜欢小儿子，他最顽皮，躺在小溪边剥莲子。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 54,
+    "difficulty": 3
+  },
+  {
+    "id": "grade4_volume2_poem4",
+    "grade": 4,
+    "volume": "下册",
+    "title": "卜算子·咏梅",
+    "author": "毛泽东",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "风雨送春归，飞雪迎春到。\n已是悬崖百丈冰，犹有花枝俏。\n俏也不争春，只把春来报。\n待到山花烂漫时，她在丛中笑。",
+    "content_array": [
+      "风雨送春归，飞雪迎春到。",
+      "已是悬崖百丈冰，犹有花枝俏。",
+      "俏也不争春，只把春来报。",
+      "待到山花烂漫时，她在丛中笑。"
+    ],
+    "notes": [
+      {
+        "word": "卜算子",
+        "explanation": "词牌名。"
+      },
+      {
+        "word": "咏梅",
+        "explanation": "题目（赞美梅花）。"
+      },
+      {
+        "word": "送春归",
+        "explanation": "把春天送走。"
+      },
+      {
+        "word": "迎春到",
+        "explanation": "把春天迎来。"
+      },
+      {
+        "word": "悬崖百丈冰",
+        "explanation": "悬崖上结了很厚的冰（\"百丈\"夸张，形容冰厚、环境冷）。"
+      },
+      {
+        "word": "犹有",
+        "explanation": "还有、仍然有。"
+      },
+      {
+        "word": "花枝俏",
+        "explanation": "梅花枝开得美丽俊俏。"
+      },
+      {
+        "word": "不争春",
+        "explanation": "不和春天的其他花争美景。"
+      },
+      {
+        "word": "报",
+        "explanation": "报告、告知（报告春天到来）。"
+      },
+      {
+        "word": "待到",
+        "explanation": "等到。"
+      },
+      {
+        "word": "山花烂漫",
+        "explanation": "山上的花开得茂盛鲜艳。"
+      },
+      {
+        "word": "丛中笑",
+        "explanation": "在花丛中微笑。"
+      }
+    ],
+    "translation": "风雨把春天送走，飞雪把春天迎来。已经是悬崖结满厚冰的时候，仍然有梅花枝开得美丽。梅花虽美，却不和其他花争春天，只把春天到来的消息报告。等到山上的花开得茂盛时，它在花丛中微笑。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 52,
+    "difficulty": 3
+  },
+  {
+    "id": "grade4_volume2_poem5",
+    "grade": 4,
+    "volume": "下册",
+    "title": "江畔独步寻花",
+    "author": "杜甫",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "黄师塔前江水东，\n春光懒困倚微风。\n桃花一簇开无主，\n可爱深红爱浅红？",
+    "content_array": [
+      "黄师塔前江水东，",
+      "春光懒困倚微风。",
+      "桃花一簇开无主，",
+      "可爱深红爱浅红？"
+    ],
+    "notes": [
+      {
+        "word": "江畔",
+        "explanation": "江边（\"江\"指锦江，在今四川成都）。"
+      },
+      {
+        "word": "独步",
+        "explanation": "独自散步。"
+      },
+      {
+        "word": "寻花",
+        "explanation": "寻找、欣赏花儿。"
+      },
+      {
+        "word": "黄师塔",
+        "explanation": "黄师建造的塔（\"师\"是对和尚的尊称）。"
+      },
+      {
+        "word": "江水东",
+        "explanation": "江水向东流。"
+      },
+      {
+        "word": "懒困",
+        "explanation": "懒洋洋、困倦的样子（因春光美好而慵懒）。"
+      },
+      {
+        "word": "倚微风",
+        "explanation": "靠着微风（悠闲地靠风休息）。"
+      },
+      {
+        "word": "一簇",
+        "explanation": "一丛、一堆。"
+      },
+      {
+        "word": "开无主",
+        "explanation": "开放着，没有主人（自由自在地开）。"
+      },
+      {
+        "word": "可爱",
+        "explanation": "让人喜爱。"
+      },
+      {
+        "word": "深红、浅红",
+        "explanation": "深红色和浅红色的桃花。"
+      }
+    ],
+    "translation": "我在黄师塔前独自散步寻花，江水向东流去。春光让人懒洋洋的，我靠着微风休息。一丛桃花自由自在地开着，让人喜爱的是深红的还是浅红的呢？",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem6",
+    "grade": 4,
+    "volume": "下册",
+    "title": "蜂",
+    "author": "罗隐",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "不论平地与山尖，\n无限风光尽被占。\n采得百花成蜜后，\n为谁辛苦为谁甜？",
+    "content_array": [
+      "不论平地与山尖，",
+      "无限风光尽被占。",
+      "采得百花成蜜后，",
+      "为谁辛苦为谁甜？"
+    ],
+    "notes": [
+      {
+        "word": "不论",
+        "explanation": "不管、无论。"
+      },
+      {
+        "word": "平地",
+        "explanation": "平坦的地面。"
+      },
+      {
+        "word": "山尖",
+        "explanation": "山顶。"
+      },
+      {
+        "word": "无限风光",
+        "explanation": "无限的美景。"
+      },
+      {
+        "word": "尽被占",
+        "explanation": "都被占据了（指蜜蜂到处采蜜）。"
+      },
+      {
+        "word": "采得",
+        "explanation": "采到。"
+      },
+      {
+        "word": "百花",
+        "explanation": "各种各样的花。"
+      },
+      {
+        "word": "成蜜后",
+        "explanation": "酿成蜂蜜之后。"
+      },
+      {
+        "word": "为谁",
+        "explanation": "为了谁。"
+      },
+      {
+        "word": "辛苦",
+        "explanation": "辛苦劳动。"
+      },
+      {
+        "word": "甜",
+        "explanation": "香甜（指蜂蜜）。"
+      }
+    ],
+    "translation": "不管是平地还是山顶，无限的美景都被蜜蜂占据了。采了各种各样的花，酿成蜂蜜后，蜜蜂为了谁辛苦，又为了谁香甜呢？",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem7",
+    "grade": 4,
+    "volume": "下册",
+    "title": "独坐敬亭山",
+    "author": "李白",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "众鸟高飞尽，\n孤云独去闲。\n相看两不厌，\n只有敬亭山。",
+    "content_array": [
+      "众鸟高飞尽，",
+      "孤云独去闲。",
+      "相看两不厌，",
+      "只有敬亭山。"
+    ],
+    "notes": [
+      {
+        "word": "独",
+        "explanation": "独自。"
+      },
+      {
+        "word": "坐",
+        "explanation": "坐看、观赏。"
+      },
+      {
+        "word": "敬亭山",
+        "explanation": "山名（在今安徽宣城，李白常游此山）。"
+      },
+      {
+        "word": "众鸟",
+        "explanation": "很多鸟。"
+      },
+      {
+        "word": "高飞尽",
+        "explanation": "向高处飞，直到消失。"
+      },
+      {
+        "word": "孤云",
+        "explanation": "孤单的白云。"
+      },
+      {
+        "word": "独去闲",
+        "explanation": "独自飘走，悠闲自在。"
+      },
+      {
+        "word": "相看",
+        "explanation": "相互看着（李白和敬亭山相互看）。"
+      },
+      {
+        "word": "两不厌",
+        "explanation": "两人都不觉得厌烦。"
+      },
+      {
+        "word": "只有",
+        "explanation": "仅仅有。"
+      }
+    ],
+    "translation": "很多鸟向高处飞去，直到消失，孤单的白云独自飘走，悠闲自在。我和敬亭山相互看着，都不觉得厌烦，只有敬亭山能懂我啊。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem8",
+    "grade": 4,
+    "volume": "下册",
+    "title": "塞下曲",
+    "author": "卢纶",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "月黑雁飞高，\n单于夜遁逃。\n欲将轻骑逐，\n大雪满弓刀。",
+    "content_array": [
+      "月黑雁飞高，",
+      "单于夜遁逃。",
+      "欲将轻骑逐，",
+      "大雪满弓刀。"
+    ],
+    "notes": [
+      {
+        "word": "塞下曲",
+        "explanation": "古代诗歌体裁（写边塞战争）。"
+      },
+      {
+        "word": "月黑",
+        "explanation": "没有月亮，天色黑。"
+      },
+      {
+        "word": "雁飞高",
+        "explanation": "大雁飞得很高（暗示有敌情）。"
+      },
+      {
+        "word": "单于",
+        "explanation": "古代匈奴最高首领的称号（这里指敌人首领）。"
+      },
+      {
+        "word": "夜遁逃",
+        "explanation": "夜里逃跑。"
+      },
+      {
+        "word": "欲将",
+        "explanation": "想要率领。"
+      },
+      {
+        "word": "轻骑",
+        "explanation": "轻装的骑兵。"
+      },
+      {
+        "word": "逐",
+        "explanation": "追赶。"
+      },
+      {
+        "word": "满弓刀",
+        "explanation": "雪沾满了弓箭和刀。"
+      }
+    ],
+    "translation": "没有月亮，天色黑，大雁飞得很高，敌人首领夜里逃跑了。想要率领轻骑兵去追赶，大雪沾满了弓箭和刀。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 2
+  },
+  {
+    "id": "grade4_volume2_poem9",
+    "grade": 4,
+    "volume": "下册",
+    "title": "墨梅",
+    "author": "王冕",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "我家洗砚池头树，\n朵朵花开淡墨痕。\n不要人夸好颜色，\n只留清气满乾坤。",
+    "content_array": [
+      "我家洗砚池头树，",
+      "朵朵花开淡墨痕。",
+      "不要人夸好颜色，",
+      "只留清气满乾坤。"
+    ],
+    "notes": [
+      {
+        "word": "墨梅",
+        "explanation": "用墨画的梅花（王冕擅长画墨梅，不用颜色）。"
+      },
+      {
+        "word": "洗砚池",
+        "explanation": "洗砚台的池子（\"砚\"是研墨的文具）。"
+      },
+      {
+        "word": "头",
+        "explanation": "旁边。"
+      },
+      {
+        "word": "淡墨痕",
+        "explanation": "淡淡的墨痕（墨梅颜色是淡墨色）。"
+      },
+      {
+        "word": "不要",
+        "explanation": "不需要。"
+      },
+      {
+        "word": "人夸",
+        "explanation": "别人夸奖。"
+      },
+      {
+        "word": "好颜色",
+        "explanation": "美丽的颜色。"
+      },
+      {
+        "word": "清气",
+        "explanation": "清香的气味（也比喻纯洁的品格）。"
+      },
+      {
+        "word": "满乾坤",
+        "explanation": "充满天地、世界。"
+      }
+    ],
+    "translation": "我家洗砚池边的梅树，每朵花开出来都带着淡淡的墨痕。不需要别人夸它颜色美，只留下清香的气味充满天地间。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume1_poem1",
+    "grade": 5,
+    "volume": "上册",
+    "title": "蝉",
+    "author": "虞世南",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "垂緌饮清露，\n流响出疏桐。\n居高声自远，\n非是藉秋风。",
+    "content_array": [
+      "垂緌饮清露，",
+      "流响出疏桐。",
+      "居高声自远，",
+      "非是藉秋风。"
+    ],
+    "notes": [
+      {
+        "word": "垂緌",
+        "explanation": "蝉的触须（像古代官帽上的缨带）。"
+      },
+      {
+        "word": "饮清露",
+        "explanation": "喝清澈的露水（古人认为蝉只喝露水，很清高）。"
+      },
+      {
+        "word": "流响",
+        "explanation": "蝉的叫声（形容叫声清脆，传播得远）。"
+      },
+      {
+        "word": "疏桐",
+        "explanation": "树叶稀疏的梧桐树。"
+      },
+      {
+        "word": "居高",
+        "explanation": "站在高处（蝉停在高高的梧桐树上）。"
+      },
+      {
+        "word": "声自远",
+        "explanation": "声音自然传得远。"
+      },
+      {
+        "word": "非是",
+        "explanation": "不是。"
+      },
+      {
+        "word": "藉秋风",
+        "explanation": "依靠秋风。"
+      }
+    ],
+    "translation": "蝉的触须下垂，喝着清露，清脆的叫声从稀疏的梧桐树中传出。因为站在高处，声音自然传得远，不是依靠秋风的力量。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 24,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume1_poem2",
+    "grade": 5,
+    "volume": "上册",
+    "title": "乞巧",
+    "author": "林杰",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "七夕今宵看碧霄，\n牵牛织女渡河桥。\n家家乞巧望秋月，\n穿尽红丝几万条。",
+    "content_array": [
+      "七夕今宵看碧霄，",
+      "牵牛织女渡河桥。",
+      "家家乞巧望秋月，",
+      "穿尽红丝几万条。"
+    ],
+    "notes": [
+      {
+        "word": "乞巧",
+        "explanation": "七夕节的习俗（农历七月初七，女子向织女求手巧）。"
+      },
+      {
+        "word": "七夕",
+        "explanation": "农历七月初七（七夕节，牛郎织女相会的日子）。"
+      },
+      {
+        "word": "今宵",
+        "explanation": "今天晚上。"
+      },
+      {
+        "word": "碧霄",
+        "explanation": "蓝色的天空。"
+      },
+      {
+        "word": "牵牛织女",
+        "explanation": "牛郎星和织女星。"
+      },
+      {
+        "word": "渡河桥",
+        "explanation": "渡过银河上的桥（喜鹊搭桥让二人相会）。"
+      },
+      {
+        "word": "家家",
+        "explanation": "每家每户（女子都在乞巧）。"
+      },
+      {
+        "word": "望秋月",
+        "explanation": "望着秋天的月亮（乞巧要对月）。"
+      },
+      {
+        "word": "穿尽",
+        "explanation": "穿完、用完。"
+      },
+      {
+        "word": "红丝",
+        "explanation": "红色的丝线（乞巧用红丝穿针，比谁手巧）。"
+      },
+      {
+        "word": "几万条",
+        "explanation": "很多条（夸张，形容乞巧的人多）。"
+      }
+    ],
+    "translation": "今天晚上是七夕，人们都看蓝色的天空，牛郎织女要渡过银河上的桥相会。每家的女子都对着秋月乞巧，用红丝穿针，穿完了几万条丝线。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume1_poem3",
+    "grade": 5,
+    "volume": "上册",
+    "title": "示儿",
+    "author": "陆游",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "死去元知万事空，\n但悲不见九州同。\n王师北定中原日，\n家祭无忘告乃翁。",
+    "content_array": [
+      "死去元知万事空，",
+      "但悲不见九州同。",
+      "王师北定中原日，",
+      "家祭无忘告乃翁。"
+    ],
+    "notes": [
+      {
+        "word": "示儿",
+        "explanation": "写给儿子看（陆游临终前的绝笔诗）。"
+      },
+      {
+        "word": "死去",
+        "explanation": "死了以后。"
+      },
+      {
+        "word": "元知",
+        "explanation": "本来就知道。"
+      },
+      {
+        "word": "万事空",
+        "explanation": "所有的事都没了（人死后什么都带不走）。"
+      },
+      {
+        "word": "但悲",
+        "explanation": "只是悲伤。"
+      },
+      {
+        "word": "九州同",
+        "explanation": "全国统一（\"九州\"代指中国）。"
+      },
+      {
+        "word": "王师",
+        "explanation": "宋朝的军队。"
+      },
+      {
+        "word": "北定",
+        "explanation": "向北平定（平定北方被金国占领的失地）。"
+      },
+      {
+        "word": "中原",
+        "explanation": "黄河中下游地区（当时被金国占领）。"
+      },
+      {
+        "word": "家祭",
+        "explanation": "家里祭祀祖先的仪式。"
+      },
+      {
+        "word": "无忘",
+        "explanation": "不要忘记。"
+      },
+      {
+        "word": "乃翁",
+        "explanation": "你们的父亲。"
+      }
+    ],
+    "translation": "我死了以后，本来就知道所有事都没了，只是悲伤没看到全国统一。等到宋朝军队向北平定中原的那一天，家里祭祀祖先时，不要忘记把消息告诉你们的父亲。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume1_poem4",
+    "grade": 5,
+    "volume": "上册",
+    "title": "题临安邸",
+    "author": "林升",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "山外青山楼外楼，\n西湖歌舞几时休？\n暖风熏得游人醉，\n直把杭州作汴州。",
+    "content_array": [
+      "山外青山楼外楼，",
+      "西湖歌舞几时休？",
+      "暖风熏得游人醉，",
+      "直把杭州作汴州。"
+    ],
+    "notes": [
+      {
+        "word": "题",
+        "explanation": "书写、题写（写在临安的旅店里）。"
+      },
+      {
+        "word": "临安",
+        "explanation": "南宋都城（今浙江杭州，当时南宋偏安于此）。"
+      },
+      {
+        "word": "邸",
+        "explanation": "旅店。"
+      },
+      {
+        "word": "山外青山",
+        "explanation": "山外还有山（形容临安周围山多）。"
+      },
+      {
+        "word": "楼外楼",
+        "explanation": "楼外还有楼（形容酒楼多，统治者享乐）。"
+      },
+      {
+        "word": "西湖歌舞",
+        "explanation": "西湖边的唱歌跳舞（统治者寻欢作乐）。"
+      },
+      {
+        "word": "几时休",
+        "explanation": "什么时候停止。"
+      },
+      {
+        "word": "暖风",
+        "explanation": "春风，也指享乐的风气。"
+      },
+      {
+        "word": "熏",
+        "explanation": "吹得、熏陶得（让人沉迷）。"
+      },
+      {
+        "word": "游人",
+        "explanation": "指南宋统治者和官员（不是普通游客）。"
+      },
+      {
+        "word": "醉",
+        "explanation": "喝醉，也指沉迷享乐。"
+      },
+      {
+        "word": "直",
+        "explanation": "简直。"
+      },
+      {
+        "word": "汴州",
+        "explanation": "北宋都城（今河南开封，已被金国占领）。"
+      }
+    ],
+    "translation": "山外有山，楼外有楼，西湖边的歌舞什么时候才停？暖风把权贵们吹得醉醺醺的，他们简直把杭州当成了原来的汴州！",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume1_poem5",
+    "grade": 5,
+    "volume": "上册",
+    "title": "己亥杂诗",
+    "author": "龚自珍",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "九州生气恃风雷，\n万马齐喑究可哀。\n我劝天公重抖擞，\n不拘一格降人才。",
+    "content_array": [
+      "九州生气恃风雷，",
+      "万马齐喑究可哀。",
+      "我劝天公重抖擞，",
+      "不拘一格降人才。"
+    ],
+    "notes": [
+      {
+        "word": "己亥",
+        "explanation": "清道光十九年（1839年，龚自珍辞官那年）。"
+      },
+      {
+        "word": "杂诗",
+        "explanation": "随感而写的诗。"
+      },
+      {
+        "word": "九州",
+        "explanation": "代指中国。"
+      },
+      {
+        "word": "生气",
+        "explanation": "国家的生机、活力。"
+      },
+      {
+        "word": "恃风雷",
+        "explanation": "依靠风雷（风雷比喻变革的力量）。"
+      },
+      {
+        "word": "万马齐喑",
+        "explanation": "所有马都沉默（比喻社会死气沉沉，人们不敢说话）。"
+      },
+      {
+        "word": "究可哀",
+        "explanation": "终究很可悲。"
+      },
+      {
+        "word": "天公",
+        "explanation": "指上天（暗指最高统治者）。"
+      },
+      {
+        "word": "重抖擞",
+        "explanation": "重新振作精神。"
+      },
+      {
+        "word": "不拘一格",
+        "explanation": "不局限于一种规格。"
+      },
+      {
+        "word": "降人才",
+        "explanation": "降下有才能的人（选拔任用人才）。"
+      }
+    ],
+    "translation": "国家的生机靠变革的风雷，如今社会死气沉沉，实在可悲。我劝上天重新振作，打破常规，降下更多有才能的人！",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem1",
+    "grade": 5,
+    "volume": "下册",
+    "title": "山居秋暝",
+    "author": "王维",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "空山新雨后，天气晚来秋。\n明月松间照，清泉石上流。\n竹喧归浣女，莲动下渔舟。\n随意春芳歇，王孙自可留。",
+    "content_array": [
+      "空山新雨后，天气晚来秋。",
+      "明月松间照，清泉石上流。",
+      "竹喧归浣女，莲动下渔舟。",
+      "随意春芳歇，王孙自可留。"
+    ],
+    "notes": [
+      {
+        "word": "山居",
+        "explanation": "在山中居住。"
+      },
+      {
+        "word": "秋暝",
+        "explanation": "秋天的傍晚。"
+      },
+      {
+        "word": "空山",
+        "explanation": "空寂的山林（人少安静）。"
+      },
+      {
+        "word": "新雨后",
+        "explanation": "刚下过雨之后。"
+      },
+      {
+        "word": "晚来秋",
+        "explanation": "傍晚时分，秋意浓。"
+      },
+      {
+        "word": "松间照",
+        "explanation": "照在松林间。"
+      },
+      {
+        "word": "石上流",
+        "explanation": "在石头上流淌。"
+      },
+      {
+        "word": "竹喧",
+        "explanation": "竹林里的喧闹声（浣女的笑声）。"
+      },
+      {
+        "word": "浣女",
+        "explanation": "洗衣的女子。"
+      },
+      {
+        "word": "莲动",
+        "explanation": "荷叶晃动（渔舟划过）。"
+      },
+      {
+        "word": "下渔舟",
+        "explanation": "渔舟顺流而下。"
+      },
+      {
+        "word": "随意",
+        "explanation": "任凭、不管。"
+      },
+      {
+        "word": "春芳歇",
+        "explanation": "春天的花草凋谢。"
+      },
+      {
+        "word": "王孙",
+        "explanation": "原指贵族子弟，这里是诗人自指（王维隐居山林）。"
+      },
+      {
+        "word": "自可留",
+        "explanation": "自然可以留下。"
+      }
+    ],
+    "translation": "空寂的山林刚下过雨，傍晚时分秋意浓。明月照在松林间，清泉在石头上流淌。竹林里传来喧闹，是洗衣女子回来了；荷叶晃动，是渔舟顺流而下。任凭春天的花草凋谢吧，我这隐居的人，自然愿意留在山里。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 48,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem2",
+    "grade": 5,
+    "volume": "下册",
+    "title": "枫桥夜泊",
+    "author": "张继",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "月落乌啼霜满天，\n江枫渔火对愁眠。\n姑苏城外寒山寺，\n夜半钟声到客船。",
+    "content_array": [
+      "月落乌啼霜满天，",
+      "江枫渔火对愁眠。",
+      "姑苏城外寒山寺，",
+      "夜半钟声到客船。"
+    ],
+    "notes": [
+      {
+        "word": "枫桥",
+        "explanation": "桥名（在今江苏苏州，靠近寒山寺）。"
+      },
+      {
+        "word": "夜泊",
+        "explanation": "夜里把船停靠在岸边。"
+      },
+      {
+        "word": "月落",
+        "explanation": "月亮落下。"
+      },
+      {
+        "word": "乌啼",
+        "explanation": "乌鸦鸣叫（叫声凄厉，显寂静）。"
+      },
+      {
+        "word": "霜满天",
+        "explanation": "霜气布满天空（秋夜寒冷）。"
+      },
+      {
+        "word": "江枫",
+        "explanation": "江边的枫树。"
+      },
+      {
+        "word": "渔火",
+        "explanation": "渔船上的灯火。"
+      },
+      {
+        "word": "对愁眠",
+        "explanation": "对着忧愁难以入睡（\"对\"是\"面对\"）。"
+      },
+      {
+        "word": "姑苏",
+        "explanation": "苏州的古称。"
+      },
+      {
+        "word": "寒山寺",
+        "explanation": "寺庙名（在苏州枫桥边）。"
+      },
+      {
+        "word": "夜半",
+        "explanation": "半夜。"
+      },
+      {
+        "word": "钟声",
+        "explanation": "寺庙的钟声（古代寺庙半夜敲钟）。"
+      },
+      {
+        "word": "到客船",
+        "explanation": "传到客船上（诗人的船）。"
+      }
+    ],
+    "translation": "月亮落下，乌鸦鸣叫，霜气满天；江边的枫树和渔火，伴着我忧愁难眠。姑苏城外的寒山寺，半夜的钟声传到了我停靠的客船上。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem3",
+    "grade": 5,
+    "volume": "下册",
+    "title": "长相思",
+    "author": "纳兰性德",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "山一程，水一程，身向榆关那畔行，夜深千帐灯。\n风一更，雪一更，聒碎乡心梦不成，故园无此声。",
+    "content_array": [
+      "山一程，水一程，身向榆关那畔行，夜深千帐灯。",
+      "风一更，雪一更，聒碎乡心梦不成，故园无此声。"
+    ],
+    "notes": [
+      {
+        "word": "长相思",
+        "explanation": "词牌名（多用来写思念之情）。"
+      },
+      {
+        "word": "一程",
+        "explanation": "一段路程（\"山一程，水一程\"指翻山涉水，路程远）。"
+      },
+      {
+        "word": "榆关",
+        "explanation": "即山海关（在今河北秦皇岛，是关内关外的分界）。"
+      },
+      {
+        "word": "那畔",
+        "explanation": "那边（指关外）。"
+      },
+      {
+        "word": "千帐灯",
+        "explanation": "很多帐篷里都亮着灯（形容出行队伍庞大）。"
+      },
+      {
+        "word": "一更",
+        "explanation": "古代夜间计时单位，一夜分五更，每更约两小时（\"风一更，雪一更\"指风雪下了很久）。"
+      },
+      {
+        "word": "聒",
+        "explanation": "声音嘈杂。"
+      },
+      {
+        "word": "聒碎乡心",
+        "explanation": "嘈杂的声音打碎了思乡的心情。"
+      },
+      {
+        "word": "故园",
+        "explanation": "家乡。"
+      },
+      {
+        "word": "此声",
+        "explanation": "指风雪的嘈杂声。"
+      }
+    ],
+    "translation": "翻了一段山路，又过了一段水路，朝着山海关那边行进，深夜里，千万顶帐篷都亮着灯。风刮了一更又一更，雪下了一更又一更，嘈杂的风雪声打碎了我的思乡梦，家乡可没有这样的声响啊！",
+    "dynasty": "未知",
+    "line_count": 2,
+    "char_count": 44,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem4",
+    "grade": 5,
+    "volume": "下册",
+    "title": "渔歌子",
+    "author": "张志和",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "西塞山前白鹭飞，\n桃花流水鳜鱼肥。\n青箬笠，绿蓑衣，\n斜风细雨不须归。",
+    "content_array": [
+      "西塞山前白鹭飞，",
+      "桃花流水鳜鱼肥。",
+      "青箬笠，绿蓑衣，",
+      "斜风细雨不须归。"
+    ],
+    "notes": [
+      {
+        "word": "渔歌子",
+        "explanation": "词牌名（原本是渔民的歌谣）。"
+      },
+      {
+        "word": "西塞山",
+        "explanation": "山名（在今浙江湖州）。"
+      },
+      {
+        "word": "白鹭",
+        "explanation": "白色的水鸟。"
+      },
+      {
+        "word": "桃花流水",
+        "explanation": "桃花盛开时，江水上涨（形容春天美景）。"
+      },
+      {
+        "word": "鳜鱼",
+        "explanation": "一种淡水鱼，肉质鲜美（春天最肥美）。"
+      },
+      {
+        "word": "青箬笠",
+        "explanation": "青色的竹编斗笠（遮雨遮阳的帽子）。"
+      },
+      {
+        "word": "绿蓑衣",
+        "explanation": "绿色的草编雨衣。"
+      },
+      {
+        "word": "斜风细雨",
+        "explanation": "倾斜的风，细小的雨（形容风雨轻柔）。"
+      },
+      {
+        "word": "不须归",
+        "explanation": "不需要回去（指渔翁沉醉在美景中不愿离开）。"
+      }
+    ],
+    "translation": "西塞山前，白色的白鹭在飞翔；桃花盛开，江水上涨，肥美的鳜鱼在水中游动。渔夫戴着青色的斗笠，披着绿色的蓑衣，在斜风细雨中垂钓，根本不需要回家。",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem5",
+    "grade": 5,
+    "volume": "下册",
+    "title": "观书有感",
+    "author": "朱熹",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "半亩方塘一鉴开，\n天光云影共徘徊。\n问渠那得清如许？\n为有源头活水来。",
+    "content_array": [
+      "半亩方塘一鉴开，",
+      "天光云影共徘徊。",
+      "问渠那得清如许？",
+      "为有源头活水来。"
+    ],
+    "notes": [
+      {
+        "word": "观书有感",
+        "explanation": "看书写的感想（共两首，这是第一首）。"
+      },
+      {
+        "word": "半亩方塘",
+        "explanation": "半亩大的方形池塘。"
+      },
+      {
+        "word": "一鉴开",
+        "explanation": "像一面打开的镜子（\"鉴\"指镜子，形容池水清澈）。"
+      },
+      {
+        "word": "天光云影",
+        "explanation": "天空的光和云的影子。"
+      },
+      {
+        "word": "共徘徊",
+        "explanation": "一起在水面上晃动。"
+      },
+      {
+        "word": "渠",
+        "explanation": "它（指池塘里的水）。"
+      },
+      {
+        "word": "那得",
+        "explanation": "怎么会（\"那\"同\"哪\"）。"
+      },
+      {
+        "word": "清如许",
+        "explanation": "这样清澈。"
+      },
+      {
+        "word": "为有",
+        "explanation": "因为有。"
+      },
+      {
+        "word": "源头活水",
+        "explanation": "从源头不断流来的清水（比喻新知识）。"
+      }
+    ],
+    "translation": "半亩大的方形池塘，像一面打开的镜子一样清澈；天空的光和云的影子，一起在水面上晃动。问这池水怎么会这样清澈？因为有源源不断的清水从源头流过来啊！",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem6",
+    "grade": 5,
+    "volume": "下册",
+    "title": "观书有感",
+    "author": "其二",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "昨夜江边春水生，\n蒙冲巨舰一毛轻。\n向来枉费推移力，\n此日中流自在行。",
+    "content_array": [
+      "昨夜江边春水生，",
+      "蒙冲巨舰一毛轻。",
+      "向来枉费推移力，",
+      "此日中流自在行。"
+    ],
+    "notes": [
+      {
+        "word": "蒙冲巨舰",
+        "explanation": "指大型战船（\"蒙冲\"是古代战船的一种）。"
+      },
+      {
+        "word": "一毛轻",
+        "explanation": "像一根羽毛一样轻（形容春水涨起后，大船变轻盈）。"
+      },
+      {
+        "word": "向来",
+        "explanation": "以前、从前（指春水未涨时）。"
+      },
+      {
+        "word": "枉费",
+        "explanation": "白白浪费。"
+      },
+      {
+        "word": "推移力",
+        "explanation": "推船的力气。"
+      },
+      {
+        "word": "此日",
+        "explanation": "今天（指春水涨起后）。"
+      },
+      {
+        "word": "中流",
+        "explanation": "江中心。"
+      },
+      {
+        "word": "自在行",
+        "explanation": "自由自在地航行。"
+      }
+    ],
+    "translation": "昨天夜里，江边的春水涨起来了；原本笨重的大战船，现在变得像一根羽毛一样轻。以前费尽全力也推不动它，如今在江中心可以自由自在地航行！",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume2_poem7",
+    "grade": 5,
+    "volume": "下册",
+    "title": "稚子弄冰",
+    "author": "杨万里",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "稚子金盆脱晓冰，\n彩丝穿取当银钲。\n敲成玉磬穿林响，\n忽作玻璃碎地声。",
+    "content_array": [
+      "稚子金盆脱晓冰，",
+      "彩丝穿取当银钲。",
+      "敲成玉磬穿林响，",
+      "忽作玻璃碎地声。"
+    ],
+    "notes": [
+      {
+        "word": "稚子",
+        "explanation": "年幼的孩子。"
+      },
+      {
+        "word": "金盆脱晓冰",
+        "explanation": "清晨从金属盆里取出冻好的冰块（\"脱\"指取出）。"
+      },
+      {
+        "word": "银钲",
+        "explanation": "银色的钲（古代打击乐器，这里比喻冰块）。"
+      },
+      {
+        "word": "玉磬",
+        "explanation": "玉石做的磬（乐器，形容冰块敲击声清脆）。"
+      },
+      {
+        "word": "穿林响",
+        "explanation": "声音穿过树林。"
+      },
+      {
+        "word": "忽作",
+        "explanation": "突然变成。"
+      },
+      {
+        "word": "玻璃",
+        "explanation": "古代指冰块（不是现代玻璃）。"
+      }
+    ],
+    "translation": "小孩清晨从金属盆里取出冰块，用彩线穿起来当银钲玩。敲冰块的声音像玉磬一样传遍树林，忽然冰块落地，发出像玻璃碎裂的声响。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume2_poem8",
+    "grade": 5,
+    "volume": "下册",
+    "title": "村晚",
+    "author": "雷震",
+    "tags": [
+      "课后必背"
+    ],
+    "content": "草满池塘水满陂，\n山衔落日浸寒漪。\n牧童归去横牛背，\n短笛无腔信口吹。",
+    "content_array": [
+      "草满池塘水满陂，",
+      "山衔落日浸寒漪。",
+      "牧童归去横牛背，",
+      "短笛无腔信口吹。"
+    ],
+    "notes": [
+      {
+        "word": "陂",
+        "explanation": "池塘边的斜坡。"
+      },
+      {
+        "word": "山衔落日",
+        "explanation": "山像含着落日（拟人，形容太阳落山的样子）。"
+      },
+      {
+        "word": "浸寒漪",
+        "explanation": "落日影子浸泡在清凉的水波纹里。"
+      },
+      {
+        "word": "横牛背",
+        "explanation": "横坐在牛背上。"
+      },
+      {
+        "word": "无腔",
+        "explanation": "没有固定曲调。"
+      },
+      {
+        "word": "信口吹",
+        "explanation": "随口吹奏。"
+      }
+    ],
+    "translation": "池塘边长满了草，池水漫到了斜坡，山像含着落日，影子浸在清凉的水波里。牧童横坐在牛背上回家，拿着短笛随口吹奏，没有固定的曲调。",
+    "dynasty": "未知",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume2_poem9",
+    "grade": 5,
+    "volume": "下册",
+    "title": "游子吟",
+    "author": "孟郊",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "慈母手中线，游子身上衣。\n临行密密缝，意恐迟迟归。\n谁言寸草心，报得三春晖。",
+    "content_array": [
+      "慈母手中线，游子身上衣。",
+      "临行密密缝，意恐迟迟归。",
+      "谁言寸草心，报得三春晖。"
+    ],
+    "notes": [
+      {
+        "word": "游子",
+        "explanation": "出门在外的人。"
+      },
+      {
+        "word": "临行",
+        "explanation": "快要出发的时候。"
+      },
+      {
+        "word": "密密缝",
+        "explanation": "缝得又密又结实（怕衣服破）。"
+      },
+      {
+        "word": "意恐",
+        "explanation": "心里担心。"
+      },
+      {
+        "word": "寸草心",
+        "explanation": "小草的心意（比喻子女的孝心）。"
+      },
+      {
+        "word": "三春晖",
+        "explanation": "春天的阳光（比喻母爱）。"
+      }
+    ],
+    "translation": "慈母手中拿着针线，为出门的游子缝制衣裳。临行前把衣服缝得又密又结实，担心游子迟迟不回家。谁说子女微薄的孝心，能报答得了像春天阳光一样深厚的母爱呢？",
+    "dynasty": "未知",
+    "line_count": 3,
+    "char_count": 36,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume2_poem7",
+    "grade": 5,
+    "volume": "下册",
+    "title": "春日",
+    "author": "朱熹",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "胜日寻芳泗水滨，\n无边光景一时新。\n等闲识得东风面，\n万紫千红总是春。",
+    "content_array": [
+      "胜日寻芳泗水滨，",
+      "无边光景一时新。",
+      "等闲识得东风面，",
+      "万紫千红总是春。"
+    ],
+    "notes": [
+      {
+        "word": "胜日",
+        "explanation": "天气晴朗、适合出游的日子。"
+      },
+      {
+        "word": "寻芳",
+        "explanation": "寻找春天的美景（\"芳\"指花草）。"
+      },
+      {
+        "word": "泗水滨",
+        "explanation": "泗水的岸边（\"泗水\"在今山东，孔子曾在此讲学）。"
+      },
+      {
+        "word": "无边光景",
+        "explanation": "广阔无边的景色。"
+      },
+      {
+        "word": "一时新",
+        "explanation": "一下子变得清新。"
+      },
+      {
+        "word": "等闲",
+        "explanation": "轻易、随便。"
+      },
+      {
+        "word": "东风面",
+        "explanation": "春风的样子（\"东风\"即春风）。"
+      },
+      {
+        "word": "万紫千红",
+        "explanation": "形容百花齐放、色彩艳丽。"
+      },
+      {
+        "word": "总是春",
+        "explanation": "全是春天（带来的）。"
+      }
+    ],
+    "translation": "在晴朗的日子里，我到泗水岸边寻找春天的美景，广阔无边的景色一下子变得清新。轻易就能认出春风的样子，因为百花齐放、万紫千红的景象，全是春天带来的啊！",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  },
+  {
+    "id": "grade5_volume2_poem8",
+    "grade": 5,
+    "volume": "下册",
+    "title": "回乡偶书",
+    "author": "贺知章",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "少小离家老大回，\n乡音无改鬓毛衰。\n儿童相见不相识，\n笑问客从何处来。",
+    "content_array": [
+      "少小离家老大回，",
+      "乡音无改鬓毛衰。",
+      "儿童相见不相识，",
+      "笑问客从何处来。"
+    ],
+    "notes": [
+      {
+        "word": "少小",
+        "explanation": "年少的时候。"
+      },
+      {
+        "word": "老大回",
+        "explanation": "年老的时候回来。"
+      },
+      {
+        "word": "乡音",
+        "explanation": "家乡的口音。"
+      },
+      {
+        "word": "无改",
+        "explanation": "没有改变。"
+      },
+      {
+        "word": "鬓毛衰",
+        "explanation": "耳朵边的头发稀疏变白。"
+      },
+      {
+        "word": "相见不相识",
+        "explanation": "看见（我）却不认识。"
+      },
+      {
+        "word": "客",
+        "explanation": "客人（儿童把我当作客人）。"
+      },
+      {
+        "word": "何处来",
+        "explanation": "从哪里来。"
+      }
+    ],
+    "translation": "年少时离开家乡，年老才回来，家乡的口音没有改变，耳朵边的头发却稀疏变白了。村里的小孩看见我，都不认识，笑着问：\"这位客人是从哪里来的呀？\"",
+    "dynasty": "唐",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 2
+  },
+  {
+    "id": "grade5_volume2_poem11",
+    "grade": 5,
+    "volume": "下册",
+    "title": "书湖阴先生壁",
+    "author": "王安石",
+    "tags": [
+      "课标必背"
+    ],
+    "content": "茅檐长扫净无苔，\n花木成畦手自栽。\n一水护田将绿绕，\n两山排闼送青来。",
+    "content_array": [
+      "茅檐长扫净无苔，",
+      "花木成畦手自栽。",
+      "一水护田将绿绕，",
+      "两山排闼送青来。"
+    ],
+    "notes": [
+      {
+        "word": "湖阴先生",
+        "explanation": "王安石的邻居杨德逢（\"湖阴\"是其住处）。"
+      },
+      {
+        "word": "茅檐",
+        "explanation": "茅草屋檐（代指茅屋）。"
+      },
+      {
+        "word": "长扫",
+        "explanation": "经常打扫。"
+      },
+      {
+        "word": "净无苔",
+        "explanation": "干净得没有青苔。"
+      },
+      {
+        "word": "成畦",
+        "explanation": "栽种得整齐有序（\"畦\"指整齐的田块）。"
+      },
+      {
+        "word": "手自栽",
+        "explanation": "亲手栽种。"
+      },
+      {
+        "word": "护田",
+        "explanation": "像卫士一样守护田地（拟人）。"
+      },
+      {
+        "word": "将绿绕",
+        "explanation": "带着绿色环绕（指溪水绕田）。"
+      },
+      {
+        "word": "排闼",
+        "explanation": "推开门（拟人，形容青山主动送景）。"
+      },
+      {
+        "word": "送青来",
+        "explanation": "送来一片青翠（指青山的绿色映入眼帘）。"
+      }
+    ],
+    "translation": "茅草屋檐下经常打扫，干净得没有一点青苔；花草树木栽种得整齐有序，都是主人亲手栽的。一条溪水像卫士一样守护着田地，带着绿色环绕而过；两座青山仿佛推开门，送来一片青翠的景色。",
+    "dynasty": "宋",
+    "line_count": 4,
+    "char_count": 32,
+    "difficulty": 3
+  }
+]
