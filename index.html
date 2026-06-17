@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>古诗背诵 - 小学人教版</title>
+    <style>
+        /* === CSS变量 - 设计系统 === */
+        :root {
+            --ink-black: #2D2D2D;
+            --paper-white: #F5F2E9;
+            --cinnabar-red: #C41E24;
+            --stone-blue: #5B8C8C;
+            --bamboo-green: #4A7C59;
+            --golden: #D4A843;
+            --warning: #E8A838;
+            --error: #C7392F;
+            --success: #5B8C5B;
+            --font-serif: 'Noto Serif SC', 'STSong', serif;
+            --font-sans: 'Noto Sans SC', 'PingFang SC', sans-serif;
+            --space-xs: 4px;
+            --space-sm: 8px;
+            --space-md: 16px;
+            --space-lg: 24px;
+            --space-xl: 32px;
+        }
+
+        /* === 基础样式 === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--paper-white);
+            color: var(--ink-black);
+            line-height: 1.6;
+            max-width: 414px;
+            margin: 0 auto;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* === 顶部导航 === */
+        .header {
+            background: var(--ink-black);
+            color: white;
+            padding: var(--space-md);
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .header h1 {
+            font-family: var(--font-serif);
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .back-btn {
+            position: absolute;
+            left: var(--space-md);
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: var(--space-xs);
+        }
+
+        /* === 主内容区 === */
+        .page {
+            display: none;
+            padding: var(--space-md);
+            padding-bottom: 80px;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* === 底部Tab栏 === */
+        .tab-bar {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 414px;
+            background: white;
+            border-top: 1px solid #E0E0E0;
+            display: flex;
+            justify-content: space-around;
+            padding: var(--space-sm) 0;
+            z-index: 100;
+        }
+
+        .tab-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: none;
+            border: none;
+            padding: var(--space-xs) var(--space-sm);
+            cursor: pointer;
+            color: #999;
+            font-size: 12px;
+            flex: 1;
+        }
+
+        .tab-item.active {
+            color: var(--cinnabar-red);
+        }
+
+        .tab-icon {
+            font-size: 24px;
+            margin-bottom: 2px;
+        }
+
+        /* === 首页 === */
+        .progress-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(var(--cinnabar-red) 0% 35%, #E0E0E0 35% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: var(--space-lg) auto;
+            position: relative;
+        }
+
+        .progress-circle::before {
+            content: '';
+            width: 90px;
+            height: 90px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .progress-text {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .progress-text .num {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--cinnabar-red);
+            display: block;
+        }
+
+        .progress-text .label {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: var(--space-lg) 0 var(--space-md);
+            padding-left: var(--space-sm);
+            border-left: 4px solid var(--cinnabar-red);
+        }
+
+        .review-list {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .review-item {
+            padding: var(--space-md) 0;
+            border-bottom: 1px solid #F0F0F0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .review-item:last-child {
+            border-bottom: none;
+        }
+
+        .review-item .title {
+            font-family: var(--font-serif);
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .review-item .status {
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: var(--warning);
+            color: white;
+        }
+
+        .review-item .status.mastered {
+            background: var(--success);
+        }
+
+        .review-item .status.new {
+            background: var(--stone-blue);
+        }
+
+        /* === 古诗列表 === */
+        .grade-tabs {
+            display: flex;
+            overflow-x: auto;
+            gap: var(--space-sm);
+            padding: var(--space-md) 0;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .grade-tab {
+            padding: var(--space-sm) var(--space-md);
+            border: 2px solid #E0E0E0;
+            border-radius: 20px;
+            background: white;
+            cursor: pointer;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        .grade-tab.active {
+            border-color: var(--cinnabar-red);
+            color: var(--cinnabar-red);
+            font-weight: 600;
+        }
+
+        .poem-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .poem-card {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .poem-card:active {
+            transform: scale(0.98);
+        }
+
+        .poem-card .title {
+            font-family: var(--font-serif);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .poem-card .author {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: var(--space-sm);
+        }
+
+        .poem-card .tags {
+            display: flex;
+            gap: var(--space-xs);
+        }
+
+        .tag {
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #F0F0F0;
+            color: #666;
+        }
+
+        .tag.required {
+            background: var(--cinnabar-red);
+            color: white;
+        }
+
+        .poem-card .status {
+            margin-top: var(--space-sm);
+            font-size: 12px;
+            color: var(--stone-blue);
+        }
+
+        /* === 古诗学习页 === */
+        .poem-content {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-lg);
+            margin: var(--space-md) 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .poem-content .title {
+            font-family: var(--font-serif);
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--space-xs);
+        }
+
+        .poem-content .author {
+            text-align: center;
+            color: #666;
+            margin-bottom: var(--space-lg);
+        }
+
+        .poem-content .text {
+            font-family: var(--font-serif);
+            font-size: 20px;
+            line-height: 2;
+            text-align: center;
+        }
+
+        .poem-content .text .char {
+            cursor: pointer;
+            border-bottom: 1px dashed var(--stone-blue);
+        }
+
+        .poem-content .text .char:hover {
+            background: #FFF9E6;
+        }
+
+        .note-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-lg);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            z-index: 200;
+            max-width: 300px;
+            display: none;
+        }
+
+        .note-popup.show {
+            display: block;
+        }
+
+        .note-popup .word {
+            font-family: var(--font-serif);
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--space-md);
+        }
+
+        .note-popup .meaning {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .note-popup .close-btn {
+            position: absolute;
+            top: var(--space-sm);
+            right: var(--space-sm);
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .translation {
+            background: #F9F9F9;
+            border-radius: 12px;
+            padding: var(--space-md);
+            margin: var(--space-md) 0;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        .notes-list {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            margin: var(--space-md) 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .note-item {
+            padding: var(--space-sm) 0;
+            border-bottom: 1px solid #F0F0F0;
+        }
+
+        .note-item:last-child {
+            border-bottom: none;
+        }
+
+        .note-item .word {
+            font-family: var(--font-serif);
+            font-weight: 600;
+            color: var(--cinnabar-red);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: var(--space-md);
+            margin: var(--space-lg) 0;
+        }
+
+        .btn {
+            flex: 1;
+            padding: var(--space-md);
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-primary {
+            background: var(--cinnabar-red);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: var(--stone-blue);
+            color: white;
+        }
+
+        /* === 背诵模式 === */
+        .recite-mask {
+            background: var(--ink-black);
+            color: var(--ink-black);
+            padding: 2px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .recite-mask.revealed {
+            background: transparent;
+            color: inherit;
+        }
+
+        .recite-hint {
+            text-align: center;
+            font-size: 14px;
+            color: var(--stone-blue);
+            margin: var(--space-md) 0;
+        }
+
+        .recite-progress {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin: var(--space-md) 0;
+        }
+
+        /* === 选择题 === */
+        .quiz-question {
+            font-family: var(--font-serif);
+            font-size: 20px;
+            text-align: center;
+            margin: var(--space-lg) 0;
+            padding: var(--space-lg);
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .quiz-option {
+            padding: var(--space-md);
+            border: 2px solid #E0E0E0;
+            border-radius: 12px;
+            background: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.2s;
+        }
+
+        .quiz-option:active {
+            transform: scale(0.98);
+        }
+
+        .quiz-option.correct {
+            border-color: var(--success);
+            background: #F0FFF0;
+        }
+
+        .quiz-option.wrong {
+            border-color: var(--error);
+            background: #FFF0F0;
+        }
+
+        .quiz-feedback {
+            text-align: center;
+            font-size: 16px;
+            margin: var(--space-md) 0;
+            padding: var(--space-md);
+            border-radius: 12px;
+        }
+
+        .quiz-feedback.correct {
+            background: #F0FFF0;
+            color: var(--success);
+        }
+
+        .quiz-feedback.wrong {
+            background: #FFF0F0;
+            color: var(--error);
+        }
+
+        .quiz-progress-bar {
+            height: 8px;
+            background: #E0E0E0;
+            border-radius: 4px;
+            margin: var(--space-md) 0;
+            overflow: hidden;
+        }
+
+        .quiz-progress-fill {
+            height: 100%;
+            background: var(--cinnabar-red);
+            transition: width 0.3s;
+        }
+
+        /* === 复习日历 === */
+        .calendar {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-md);
+        }
+
+        .calendar-header .month {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .calendar-header button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            padding: var(--space-xs);
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: var(--space-xs);
+        }
+
+        .calendar-day {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .calendar-day.has-review::after {
+            content: '';
+            position: absolute;
+            bottom: 4px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--cinnabar-red);
+        }
+
+        .calendar-day.today {
+            background: var(--cinnabar-red);
+            color: white;
+        }
+
+        .stats-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-sm);
+            margin: var(--space-md) 0;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .stat-card .num {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--cinnabar-red);
+            display: block;
+        }
+
+        .stat-card .label {
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* === 进度统计 === */
+        .progress-chart {
+            background: white;
+            border-radius: 12px;
+            padding: var(--space-md);
+            margin: var(--space-md) 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .chart-bar {
+            display: flex;
+            align-items: center;
+            margin: var(--space-sm) 0;
+        }
+
+        .chart-label {
+            width: 60px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .chart-bar-fill {
+            flex: 1;
+            height: 24px;
+            background: var(--cinnabar-red);
+            border-radius: 4px;
+            transition: width 0.5s;
+        }
+
+        .chart-value {
+            width: 40px;
+            text-align: right;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: var(--space-sm);
+        }
+
+        /* === 通用动画 === */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        /* === 遮罩层 === */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 150;
+            display: none;
+        }
+
+        .overlay.show {
+            display: block;
+        }
+
+        /* === 完成弹窗 === */
+        .completion-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 16px;
+            padding: var(--space-xl);
+            text-align: center;
+            z-index: 200;
+            max-width: 300px;
+            display: none;
+        }
+
+        .completion-modal.show {
+            display: block;
+        }
+
+        .completion-modal .icon {
+            font-size: 64px;
+            margin-bottom: var(--space-md);
+        }
+
+        .completion-modal .title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: var(--space-sm);
+        }
+
+        .completion-modal .message {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: var(--space-lg);
+        }
+
+        .completion-modal .btn {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <div class="header">
+        <button class="back-btn" onclick="goBack()" style="display:none;" id="backBtn">←</button>
+        <h1 id="headerTitle">古诗背诵</h1>
+    </div>
+
+    <!-- 首页 -->
+    <div class="page active" id="homePage">
+        <div class="progress-circle">
+            <div class="progress-text">
+                <span class="num" id="progressPercent">0%</span>
+                <span class="label">掌握进度</span>
+            </div>
+        </div>
+
+        <div class="section-title">今日复习</div>
+        <div class="review-list" id="todayReviewList">
+            <div class="review-item">
+                <div>
+                    <div class="title">暂无复习任务</div>
+                    <div class="author">完成学习后会自动安排复习</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">快速开始</div>
+        <div class="action-buttons">
+            <button class="btn btn-primary" onclick="showPage('listPage')">学习古诗</button>
+            <button class="btn btn-secondary" onclick="startReview()">开始复习</button>
+        </div>
+    </div>
+
+    <!-- 古诗列表页 -->
+    <div class="page" id="listPage">
+        <div class="grade-tabs" id="gradeTabs"></div>
+        <div class="poem-list" id="poemList"></div>
+    </div>
+
+    <!-- 古诗学习页 -->
+    <div class="page" id="detailPage">
+        <div class="poem-content">
+            <div class="title" id="detailTitle"></div>
+            <div class="author" id="detailAuthor"></div>
+            <div class="text" id="detailText"></div>
+        </div>
+
+        <div class="translation" id="detailTranslation"></div>
+
+        <div class="notes-list" id="detailNotes"></div>
+
+        <div class="action-buttons">
+            <button class="btn btn-primary" onclick="startRecite()">开始背诵</button>
+            <button class="btn btn-secondary" onclick="startQuiz()">字词练习</button>
+        </div>
+    </div>
+
+    <!-- 背诵模式页 -->
+    <div class="page" id="recitePage">
+        <div class="poem-content">
+            <div class="title" id="reciteTitle"></div>
+            <div class="author" id="reciteAuthor"></div>
+            <div class="text" id="reciteText"></div>
+        </div>
+
+        <div class="recite-hint" id="reciteHint">点击黑色区域揭示答案</div>
+        <div class="recite-progress" id="reciteProgress"></div>
+
+        <div class="action-buttons">
+            <button class="btn btn-secondary" onclick="revealAll()">显示全部</button>
+            <button class="btn btn-primary" onclick="finishRecite()">完成背诵</button>
+        </div>
+    </div>
+
+    <!-- 选择题页 -->
+    <div class="page" id="quizPage">
+        <div class="quiz-progress-bar">
+            <div class="quiz-progress-fill" id="quizProgressFill"></div>
+        </div>
+
+        <div class="quiz-question" id="quizQuestion"></div>
+
+        <div class="quiz-options" id="quizOptions"></div>
+
+        <div class="quiz-feedback" id="quizFeedback" style="display:none;"></div>
+
+        <div class="action-buttons" id="quizActions" style="display:none;">
+            <button class="btn btn-primary" onclick="nextQuiz()">下一题</button>
+        </div>
+    </div>
+
+    <!-- 复习日历页 -->
+    <div class="page" id="calendarPage">
+        <div class="calendar">
+            <div class="calendar-header">
+                <button onclick="changeMonth(-1)">←</button>
+                <div class="month" id="calendarMonth"></div>
+                <button onclick="changeMonth(1)">→</button>
+            </div>
+            <div class="calendar-grid" id="calendarGrid"></div>
+        </div>
+
+        <div class="section-title">本月统计</div>
+        <div class="stats-cards">
+            <div class="stat-card">
+                <span class="num" id="statReviews">0</span>
+                <span class="label">复习次数</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statMastered">0</span>
+                <span class="label">已掌握</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statStreak">0</span>
+                <span class="label">连续打卡</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statAccuracy">0%</span>
+                <span class="label">正确率</span>
+            </div>
+        </div>
+
+        <div class="section-title">今日复习计划</div>
+        <div class="review-list" id="calendarReviewList"></div>
+    </div>
+
+    <!-- 进度统计页 -->
+    <div class="page" id="statsPage">
+        <div class="stats-cards">
+            <div class="stat-card">
+                <span class="num" id="statsLearned">0</span>
+                <span class="label">已学</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statsMastered">0</span>
+                <span class="label">已掌握</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statsReviews">0</span>
+                <span class="label">复习次数</span>
+            </div>
+            <div class="stat-card">
+                <span class="num" id="statsAccuracy">0%</span>
+                <span class="label">正确率</span>
+            </div>
+        </div>
+
+        <div class="section-title">学习曲线</div>
+        <div class="progress-chart" id="learningCurve"></div>
+
+        <div class="section-title">掌握程度</div>
+        <div class="progress-chart">
+            <div class="chart-bar">
+                <div class="chart-label">已掌握</div>
+                <div class="chart-bar-fill" style="width: 0%;" id="masteryBar"></div>
+                <div class="chart-value" id="masteryValue">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部Tab栏 -->
+    <div class="tab-bar">
+        <button class="tab-item active" onclick="showPage('homePage')">
+            <span class="tab-icon">🏠</span>
+            <span>首页</span>
+        </button>
+        <button class="tab-item" onclick="showPage('listPage')">
+            <span class="tab-icon">📖</span>
+            <span>古诗</span>
+        </button>
+        <button class="tab-item" onclick="showPage('calendarPage')">
+            <span class="tab-icon">📅</span>
+            <span>复习</span>
+        </button>
+        <button class="tab-item" onclick="showPage('statsPage')">
+            <span class="tab-icon">📊</span>
+            <span>统计</span>
+        </button>
+    </div>
+
+    <!-- 遮罩层 -->
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <!-- 注释弹窗 -->
+    <div class="note-popup" id="notePopup">
+        <button class="close-btn" onclick="closePopup()">×</button>
+        <div class="word" id="popupWord"></div>
+        <div class="meaning" id="popupMeaning"></div>
+    </div>
+
+    <!-- 完成弹窗 -->
+    <div class="completion-modal" id="completionModal">
+        <div class="icon">🎉</div>
+        <div class="title">太棒了！</div>
+        <div class="message" id="completionMessage">你已完成背诵</div>
+        <button class="btn btn-primary" onclick="closeCompletionModal()">继续学习</button>
+    </div>
+
+    <!-- JavaScript逻辑 -->
+    <script>
+        // === 数据管理 ===
+        let poems = [];
+        let currentPoem = null;
+        let currentGrade = '全部';
+        let quizQuestions = [];
+        let currentQuizIndex = 0;
+        let quizCorrectCount = 0;
+        let reciteRevealed = [];
+        let calendarDate = new Date();
+
+        // === 加载诗词数据 ===
+        async function loadPoems() {
+            try {
+                // 尝试从poems.json加载真实数据
+                const response = await fetch('data/poems.json');
+                if (response.ok) {
+                    poems = await response.json();
+                    // 兼容处理：将 explanation 字段映射为 meaning（如果缺失）
+                    poems.forEach(poem => {
+                        if (poem.notes) {
+                            poem.notes.forEach(note => {
+                                // 确保两个字段都有值
+                                if (note.explanation && !note.meaning) {
+                                    note.meaning = note.explanation;
+                                }
+                                if (note.meaning && !note.explanation) {
+                                    note.explanation = note.meaning;
+                                }
+                            });
+                        }
+                    });
+                    console.log(`✅ 成功加载 ${poems.length} 首古诗词`);
+                } else {
+                    throw new Error('无法加载数据文件');
+                }
+            } catch (error) {
+                console.warn('⚠️ 使用模拟数据（真实数据加载失败）：', error.message);
+                // 后备模拟数据
+                poems = [
+                    {
+                        id: 'poem_001',
+                        grade: 1,
+                        title: '咏鹅',
+                        author: '骆宾王',
+                        content_array: ['鹅，鹅，鹅，', '曲项向天歌。', '白毛浮绿水，', '红掌拨清波。'],
+                        notes: [
+                            {word: '曲项', meaning: '弯弯的脖子'},
+                            {word: '拨', meaning: '划动'}
+                        ],
+                        translation: '白鹅啊白鹅，弯着脖子仰天欢叫。洁白的羽毛漂浮在碧绿的水面上，红色的脚掌划着清波。'
+                    },
+                    {
+                        id: 'poem_002',
+                        grade: 1,
+                        title: '静夜思',
+                        author: '李白',
+                        content_array: ['床前明月光，', '疑是地上霜。', '举头望明月，', '低头思故乡。'],
+                        notes: [
+                            {word: '疑', meaning: '好像'},
+                            {word: '举头', meaning: '抬头'}
+                        ],
+                        translation: '明亮的月光洒在床前，好像地上泛起了一层白霜。我抬起头看那空中的明月，不由得低下头沉思，想起远方的家乡。'
+                    }
+                ];
+            }
+            renderPoemList();
+            updateHomePage();
+        }
+
+        function getProgress() {
+            const progress = localStorage.getItem('poetryProgress');
+            return progress ? JSON.parse(progress) : {};
+        }
+
+        function saveProgress(progress) {
+            localStorage.setItem('poetryProgress', JSON.stringify(progress));
+        }
+
+        function getPoemProgress(poemId) {
+            const progress = getProgress();
+            return progress[poemId] || {
+                status: 'new',  // new, learning, mastered
+                reviewCount: 0,
+                correctCount: 0,
+                quizCount: 0,
+                nextReviewDate: null,
+                lastReviewDate: null
+            };
+        }
+
+        function updatePoemProgress(poemId, updates) {
+            const progress = getProgress();
+            if (!progress[poemId]) {
+                progress[poemId] = getPoemProgress(poemId);
+            }
+            Object.assign(progress[poemId], updates);
+            saveProgress(progress);
+        }
+
+        // === 艾宾浩斯复习算法 ===
+        function calculateNextReviewDate(reviewCount) {
+            // 复习间隔：1天、2天、4天、7天、15天、30天
+            const intervals = [1, 2, 4, 7, 15, 30];
+            const interval = intervals[Math.min(reviewCount, intervals.length - 1)];
+            const date = new Date();
+            date.setDate(date.getDate() + interval);
+            return date.toISOString().split('T')[0];
+        }
+
+        function getTodayReviews() {
+            const progress = getProgress();
+            const today = new Date().toISOString().split('T')[0];
+            const reviews = [];
+
+            for (const [poemId, data] of Object.entries(progress)) {
+                if (data.nextReviewDate && data.nextReviewDate <= today) {
+                    const poem = poems.find(p => p.id === poemId);
+                    if (poem) {
+                        reviews.push({
+                            poem: poem,
+                            status: data.status
+                        });
+                    }
+                }
+            }
+
+            return reviews;
+        }
+
+        // === 页面导航 ===
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+
+            document.querySelectorAll('.tab-item').forEach(t => t.classList.remove('active'));
+            const tabIndex = {'homePage': 0, 'listPage': 1, 'calendarPage': 2, 'statsPage': 3};
+            if (tabIndex[pageId] !== undefined) {
+                document.querySelectorAll('.tab-item')[tabIndex[pageId]].classList.add('active');
+            }
+
+            // 更新返回按钮
+            const backBtn = document.getElementById('backBtn');
+            backBtn.style.display = pageId === 'homePage' ? 'none' : 'block';
+
+            // 更新页面标题
+            const titles = {
+                'homePage': '古诗背诵',
+                'listPage': '古诗列表',
+                'detailPage': currentPoem ? currentPoem.title : '古诗详情',
+                'recitePage': '背诵模式',
+                'quizPage': '字词练习',
+                'calendarPage': '复习日历',
+                'statsPage': '学习统计'
+            };
+            document.getElementById('headerTitle').textContent = titles[pageId] || '古诗背诵';
+
+            // 刷新数据
+            if (pageId === 'homePage') {
+                updateHomePage();
+            } else if (pageId === 'calendarPage') {
+                renderCalendar();
+            } else if (pageId === 'statsPage') {
+                updateStatsPage();
+            }
+        }
+
+        function goBack() {
+            if (document.getElementById('detailPage').classList.contains('active')) {
+                showPage('listPage');
+            } else if (document.getElementById('recitePage').classList.contains('active')) {
+                showPage('detailPage');
+            } else if (document.getElementById('quizPage').classList.contains('active')) {
+                showPage('detailPage');
+            } else {
+                showPage('homePage');
+            }
+        }
+
+        // === 首页 ===
+        function updateHomePage() {
+            const progress = getProgress();
+            const totalPoems = poems.length;
+            let masteredCount = 0;
+
+            for (const data of Object.values(progress)) {
+                if (data.status === 'mastered') {
+                    masteredCount++;
+                }
+            }
+
+            const percent = totalPoems > 0 ? Math.round(masteredCount / totalPoems * 100) : 0;
+            document.getElementById('progressPercent').textContent = percent + '%';
+
+            // 更新进度环
+            const circle = document.querySelector('.progress-circle');
+            circle.style.background = `conic-gradient(var(--cinnabar-red) 0% ${percent}%, #E0E0E0 ${percent}% 100%)`;
+
+            // 今日复习列表
+            const reviews = getTodayReviews();
+            const reviewList = document.getElementById('todayReviewList');
+            if (reviews.length === 0) {
+                reviewList.innerHTML = '<div class="review-item"><div><div class="title">暂无复习任务</div><div class="author">完成学习后会自动安排复习</div></div></div>';
+            } else {
+                reviewList.innerHTML = reviews.map(r => `
+                    <div class="review-item" onclick="showPoemDetail('${r.poem.id}')">
+                        <div>
+                            <div class="title">${r.poem.title}</div>
+                            <div class="author">${r.poem.author}</div>
+                        </div>
+                        <div class="status ${r.status}">${r.status === 'mastered' ? '已掌握' : '待复习'}</div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        // === 古诗列表 ===
+        function renderGradeTabs() {
+            const grades = ['全部', '1年级', '2年级', '3年级', '4年级', '5年级', '6年级'];
+            const tabs = document.getElementById('gradeTabs');
+            tabs.innerHTML = grades.map(g => `
+                <div class="grade-tab ${g === currentGrade ? 'active' : ''}" onclick="filterByGrade('${g}')">${g}</div>
+            `).join('');
+        }
+
+        function filterByGrade(grade) {
+            currentGrade = grade;
+            renderGradeTabs();
+            renderPoemList();
+        }
+
+        function renderPoemList() {
+            let filteredPoems = poems;
+            if (currentGrade !== '全部') {
+                const gradeNum = parseInt(currentGrade);
+                filteredPoems = poems.filter(p => p.grade === gradeNum);
+            }
+
+            const list = document.getElementById('poemList');
+            list.innerHTML = filteredPoems.map(p => {
+                const poemProgress = getPoemProgress(p.id);
+                const statusText = poemProgress.status === 'new' ? '未学习' : 
+                                 poemProgress.status === 'learning' ? '学习中' : '已掌握';
+                return `
+                    <div class="poem-card" onclick="showPoemDetail('${p.id}')">
+                        <div class="title">${p.title}</div>
+                        <div class="author">${p.author} · ${p.grade}年级</div>
+                        <div class="tags">
+                            <span class="tag required">课标必背</span>
+                        </div>
+                        <div class="status">${statusText}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // === 古诗详情 ===
+        function showPoemDetail(poemId) {
+            currentPoem = poems.find(p => p.id === poemId);
+            if (!currentPoem) return;
+
+            document.getElementById('detailTitle').textContent = currentPoem.title;
+            document.getElementById('detailAuthor').textContent = `${currentPoem.dynasty || '唐'} · ${currentPoem.author}`;
+
+            // 渲染诗词原文（可点击字词查看注释）
+            const textDiv = document.getElementById('detailText');
+            textDiv.innerHTML = currentPoem.content_array.map(line => {
+                return line.split('').map(char => {
+                    if (char === '，' || char === '。' || char === '、' || char === '；') {
+                        return char;
+                    }
+                    const note = currentPoem.notes.find(n => n.word.includes(char));
+                    if (note) {
+                        const word = (note.word || '').replace(/'/g, "\\'").replace(/"/g, '\\"');
+                        const meaning = (note.explanation || note.meaning || '').replace(/'/g, "\\'").replace(/"/g, '\\"');
+                        return `<span class="char" onclick="showNote('${word}', '${meaning}')">${char}</span>`;
+                    }
+                    return char;
+                }).join('');
+            }).join('<br>');
+
+            // 渲染译文
+            document.getElementById('detailTranslation').innerHTML = `<strong>译文：</strong>${currentPoem.translation}`;
+
+            // 渲染注释列表
+            const notesDiv = document.getElementById('detailNotes');
+            notesDiv.innerHTML = currentPoem.notes.map(n => `
+                <div class="note-item">
+                    <span class="word">${n.word}：</span>
+                    <span class="meaning">${n.meaning || n.explanation || ''}</span>
+                </div>
+            `).join('');
+
+            // 更新学习状态
+            const poemProgress = getPoemProgress(poemId);
+            if (poemProgress.status === 'new') {
+                updatePoemProgress(poemId, {status: 'learning', lastReviewDate: new Date().toISOString().split('T')[0]});
+            }
+
+            showPage('detailPage');
+        }
+
+        function showNote(word, meaning) {
+            document.getElementById('popupWord').textContent = word;
+            document.getElementById('popupMeaning').textContent = meaning;
+            document.getElementById('notePopup').classList.add('show');
+            document.getElementById('overlay').classList.add('show');
+        }
+
+        function closePopup() {
+            document.getElementById('notePopup').classList.remove('show');
+            document.getElementById('overlay').classList.remove('show');
+        }
+
+        // === 背诵模式 ===
+        function startRecite() {
+            if (!currentPoem) return;
+
+            document.getElementById('reciteTitle').textContent = currentPoem.title;
+            document.getElementById('reciteAuthor').textContent = `${currentPoem.dynasty || '唐'} · ${currentPoem.author}`;
+
+            // 渲染遮盖的诗词
+            const textDiv = document.getElementById('reciteText');
+            reciteRevealed = new Array(currentPoem.content_array.length).fill(false);
+            
+            renderReciteText();
+            showPage('recitePage');
+        }
+
+        function renderReciteText() {
+            const textDiv = document.getElementById('reciteText');
+            textDiv.innerHTML = currentPoem.content_array.map((line, lineIndex) => {
+                if (reciteRevealed[lineIndex]) {
+                    return line;
+                } else {
+                    return '<span class="recite-mask" onclick="revealLine(' + lineIndex + ')">' + line + '</span>';
+                }
+            }).join('<br>');
+
+            const revealedCount = reciteRevealed.filter(r => r).length;
+            const totalLines = currentPoem.content_array.length;
+            document.getElementById('reciteProgress').textContent = `已揭示 ${revealedCount}/${totalLines} 句`;
+        }
+
+        function revealLine(lineIndex) {
+            reciteRevealed[lineIndex] = true;
+            renderReciteText();
+        }
+
+        function revealAll() {
+            reciteRevealed = reciteRevealed.map(() => true);
+            renderReciteText();
+        }
+
+        function finishRecite() {
+            // 更新进度
+            const poemProgress = getPoemProgress(currentPoem.id);
+            const newReviewCount = poemProgress.reviewCount + 1;
+            const nextReviewDate = calculateNextReviewDate(newReviewCount);
+            
+            updatePoemProgress(currentPoem.id, {
+                status: newReviewCount >= 6 ? 'mastered' : 'learning',
+                reviewCount: newReviewCount,
+                nextReviewDate: nextReviewDate,
+                lastReviewDate: new Date().toISOString().split('T')[0]
+            });
+
+            // 显示完成弹窗
+            document.getElementById('completionMessage').textContent = 
+                newReviewCount >= 6 ? '太棒了！这首诗已掌握！' : `已完成第${newReviewCount}次复习，下次复习：${nextReviewDate}`;
+            document.getElementById('completionModal').classList.add('show');
+            document.getElementById('overlay').classList.add('show');
+        }
+
+        function closeCompletionModal() {
+            document.getElementById('completionModal').classList.remove('show');
+            document.getElementById('overlay').classList.remove('show');
+            showPage('detailPage');
+        }
+
+        // === 选择题 ===
+        function startQuiz() {
+            if (!currentPoem) return;
+
+            // 生成选择题
+            quizQuestions = generateQuizQuestions(currentPoem);
+            currentQuizIndex = 0;
+            quizCorrectCount = 0;
+
+            renderQuizQuestion();
+            showPage('quizPage');
+        }
+
+        function generateQuizQuestions(poem) {
+            const questions = [];
+            
+            // 为每个注释生成一道题
+            poem.notes.forEach(note => {
+                const question = {
+                    word: note.word,
+                    correctAnswer: note.explanation,
+                    options: generateOptions(note.explanation, 
+                                poem.notes.filter(n => n !== note)
+                                .map(n => n.meaning || n.explanation || ''))
+                };
+                questions.push(question);
+            });
+
+            return questions;
+        }
+
+        function generateOptions(correctAnswer, otherMeanings) {
+            const options = [correctAnswer];
+            
+            // 添加干扰项
+            const usedIndices = new Set();
+            while (options.length < 4 && options.length < otherMeanings.length + 1) {
+                const randomIndex = Math.floor(Math.random() * otherMeanings.length);
+                if (!usedIndices.has(randomIndex)) {
+                    usedIndices.add(randomIndex);
+                    options.push(otherMeanings[randomIndex]);
+                }
+            }
+
+            // 如果干扰项不够，添加通用干扰项
+            const genericOptions = ['非常高兴', '形容颜色', '表示时间', '形容声音', '表示地点', '形容数量'];
+            let genericIndex = 0;
+            while (options.length < 4) {
+                if (!options.includes(genericOptions[genericIndex])) {
+                    options.push(genericOptions[genericIndex]);
+                }
+                genericIndex++;
+            }
+
+            // 打乱顺序
+            return shuffleArray(options);
+        }
+
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        function renderQuizQuestion() {
+            if (currentQuizIndex >= quizQuestions.length) {
+                finishQuiz();
+                return;
+            }
+
+            const question = quizQuestions[currentQuizIndex];
+            document.getElementById('quizQuestion').textContent = `「${question.word}」的意思是？`;
+
+            const optionsDiv = document.getElementById('quizOptions');
+            optionsDiv.innerHTML = question.options.map((option, index) => `
+                <div class="quiz-option" onclick="selectQuizOption(${index}, '${option}', '${question.correctAnswer}')">${option}</div>
+            `).join('');
+
+            document.getElementById('quizFeedback').style.display = 'none';
+            document.getElementById('quizActions').style.display = 'none';
+
+            // 更新进度条
+            const progress = (currentQuizIndex / quizQuestions.length) * 100;
+            document.getElementById('quizProgressFill').style.width = progress + '%';
+        }
+
+        function selectQuizOption(optionIndex, selectedAnswer, correctAnswer) {
+            const options = document.querySelectorAll('.quiz-option');
+            options.forEach((opt, index) => {
+                opt.onclick = null;  // 禁用点击
+                if (opt.textContent === correctAnswer) {
+                    opt.classList.add('correct');
+                } else if (index === optionIndex && selectedAnswer !== correctAnswer) {
+                    opt.classList.add('wrong');
+                }
+            });
+
+            const isCorrect = selectedAnswer === correctAnswer;
+            if (isCorrect) {
+                quizCorrectCount++;
+            }
+
+            // 显示反馈
+            const feedbackDiv = document.getElementById('quizFeedback');
+            feedbackDiv.style.display = 'block';
+            feedbackDiv.className = 'quiz-feedback ' + (isCorrect ? 'correct' : 'wrong');
+            feedbackDiv.textContent = isCorrect ? '✅ 答对了！' : `❌ 答错了。正确答案是：${correctAnswer}`;
+
+            // 显示下一题按钮
+            document.getElementById('quizActions').style.display = 'block';
+
+            // 更新进度
+            const poemProgress = getPoemProgress(currentPoem.id);
+            updatePoemProgress(currentPoem.id, {
+                correctCount: poemProgress.correctCount + (isCorrect ? 1 : 0),
+                quizCount: poemProgress.quizCount + 1
+            });
+        }
+
+        function nextQuiz() {
+            currentQuizIndex++;
+            renderQuizQuestion();
+        }
+
+        function finishQuiz() {
+            const accuracy = quizQuestions.length > 0 ? Math.round(quizCorrectCount / quizQuestions.length * 100) : 0;
+            
+            document.getElementById('completionMessage').textContent = 
+                `答题完成！正确率：${accuracy}%（${quizCorrectCount}/${quizQuestions.length}）`;
+            document.getElementById('completionModal').classList.add('show');
+            document.getElementById('overlay').classList.add('show');
+        }
+
+        // === 复习日历 ===
+        function renderCalendar() {
+            const year = calendarDate.getFullYear();
+            const month = calendarDate.getMonth();
+            
+            document.getElementById('calendarMonth').textContent = `${year}年${month + 1}月`;
+
+            const grid = document.getElementById('calendarGrid');
+            grid.innerHTML = '';
+
+            // 星期标题
+            const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+            weekdays.forEach(day => {
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'calendar-day';
+                dayDiv.textContent = day;
+                dayDiv.style.fontWeight = '600';
+                grid.appendChild(dayDiv);
+            });
+
+            // 计算月份信息
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            // 填充空白
+            for (let i = 0; i < firstDay; i++) {
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'calendar-day';
+                grid.appendChild(dayDiv);
+            }
+
+            // 填充日期
+            const today = new Date();
+            const progress = getProgress();
+            
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'calendar-day';
+                dayDiv.textContent = day;
+
+                // 检查今天
+                if (year === today.getFullYear() && month === today.getMonth() && day === today.getDate()) {
+                    dayDiv.classList.add('today');
+                }
+
+                // 检查是否有复习
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const hasReview = Object.values(progress).some(p => p.nextReviewDate === dateStr);
+                if (hasReview) {
+                    dayDiv.classList.add('has-review');
+                }
+
+                grid.appendChild(dayDiv);
+            }
+
+            // 更新统计
+            updateCalendarStats();
+        }
+
+        function changeMonth(delta) {
+            calendarDate.setMonth(calendarDate.getMonth() + delta);
+            renderCalendar();
+        }
+
+        function updateCalendarStats() {
+            const progress = getProgress();
+            let reviewCount = 0;
+            let masteredCount = 0;
+            let totalCorrect = 0;
+            let totalQuiz = 0;
+
+            for (const data of Object.values(progress)) {
+                reviewCount += data.reviewCount || 0;
+                if (data.status === 'mastered') masteredCount++;
+                totalCorrect += data.correctCount || 0;
+                totalQuiz += data.quizCount || 0;
+            }
+
+            document.getElementById('statReviews').textContent = reviewCount;
+            document.getElementById('statMastered').textContent = masteredCount;
+            document.getElementById('statStreak').textContent = calculateStreak();
+            document.getElementById('statAccuracy').textContent = 
+                totalQuiz > 0 ? Math.round(totalCorrect / totalQuiz * 100) + '%' : '0%';
+
+            // 今日复习列表
+            const reviews = getTodayReviews();
+            const reviewList = document.getElementById('calendarReviewList');
+            if (reviews.length === 0) {
+                reviewList.innerHTML = '<div class="review-item"><div><div class="title">今日无复习任务</div></div></div>';
+            } else {
+                reviewList.innerHTML = reviews.map(r => `
+                    <div class="review-item" onclick="showPoemDetail('${r.poem.id}')">
+                        <div>
+                            <div class="title">${r.poem.title}</div>
+                            <div class="author">${r.poem.author}</div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function calculateStreak() {
+            // 简化版：计算连续有多少天的复习记录
+            const progress = getProgress();
+            let streak = 0;
+            const today = new Date();
+
+            for (let i = 0; i < 365; i++) {
+                const date = new Date(today);
+                date.setDate(date.getDate() - i);
+                const dateStr = date.toISOString().split('T')[0];
+                
+                const hasReviewOnDate = Object.values(progress).some(p => 
+                    p.lastReviewDate === dateStr
+                );
+
+                if (hasReviewOnDate) {
+                    streak++;
+                } else if (i > 0) {
+                    break;
+                }
+            }
+
+            return streak;
+        }
+
+        // === 进度统计 ===
+        function updateStatsPage() {
+            const progress = getProgress();
+            let learnedCount = 0;
+            let masteredCount = 0;
+            let totalReviews = 0;
+            let totalCorrect = 0;
+            let totalQuiz = 0;
+
+            for (const data of Object.values(progress)) {
+                if (data.status !== 'new') learnedCount++;
+                if (data.status === 'mastered') masteredCount++;
+                totalReviews += data.reviewCount || 0;
+                totalCorrect += data.correctCount || 0;
+                totalQuiz += data.quizCount || 0;
+            }
+
+            document.getElementById('statsLearned').textContent = learnedCount;
+            document.getElementById('statsMastered').textContent = masteredCount;
+            document.getElementById('statsReviews').textContent = totalReviews;
+            document.getElementById('statsAccuracy').textContent = 
+                totalQuiz > 0 ? Math.round(totalCorrect / totalQuiz * 100) + '%' : '0%';
+
+            // 更新掌握程度条
+            const masteryPercent = learnedCount > 0 ? Math.round(masteredCount / learnedCount * 100) : 0;
+            document.getElementById('masteryBar').style.width = masteryPercent + '%';
+            document.getElementById('masteryValue').textContent = masteryPercent + '%';
+
+            // 渲染学习曲线（简化版）
+            renderLearningCurve();
+        }
+
+        function renderLearningCurve() {
+            const progress = getProgress();
+            const curveDiv = document.getElementById('learningCurve');
+            
+            // 按日期统计学习数量
+            const dateCount = {};
+            for (const data of Object.values(progress)) {
+                if (data.lastReviewDate) {
+                    dateCount[data.lastReviewDate] = (dateCount[data.lastReviewDate] || 0) + 1;
+                }
+            }
+
+            // 取最近7天
+            const dates = Object.keys(dateCount).sort().slice(-7);
+            const maxCount = Math.max(...dates.map(d => dateCount[d]), 1);
+
+            curveDiv.innerHTML = dates.map(date => `
+                <div class="chart-bar">
+                    <div class="chart-label">${date.slice(5)}</div>
+                    <div class="chart-bar-fill" style="width: ${dateCount[date] / maxCount * 100}%;"></div>
+                    <div class="chart-value">${dateCount[date]}</div>
+                </div>
+            `).join('');
+        }
+
+        // === 开始复习 ===
+        function startReview() {
+            const reviews = getTodayReviews();
+            if (reviews.length === 0) {
+                alert('今日无复习任务，先去学习古诗吧！');
+                return;
+            }
+
+            // 显示第一个复习项目
+            showPoemDetail(reviews[0].poem.id);
+        }
+
+        // === 初始化 ===
+        function init() {
+            loadPoems();
+            renderGradeTabs();
+            updateHomePage();
+            renderCalendar();
+        }
+
+        // 启动应用
+        init();
+    </script>
+</body>
+</html>
