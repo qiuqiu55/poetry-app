@@ -216,14 +216,12 @@
         .grade-tabs {
             display: flex;
             gap: 6px;
-            padding: var(--space-sm) 0;
+            padding: 10px 16px;
+            background: #FAFAF6;
+            border-bottom: 2px solid #E8E4D8;
             position: sticky;
             top: 56px;
-            background: var(--paper-white);
             z-index: 99;
-            padding-top: var(--space-sm);
-            padding-bottom: var(--space-sm);
-            margin-bottom: var(--space-sm);
         }
 
         .grade-tab {
@@ -250,6 +248,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 12px;
+            padding-top: 12px;
         }
         .poem-card {
             background: white;
@@ -1056,6 +1055,9 @@
             // 刷新数据
             if (pageId === 'homePage') {
                 updateHomePage();
+            } else if (pageId === 'listPage') {
+                renderGradeTabs();
+                renderPoemList();
             } else if (pageId === 'calendarPage') {
                 renderCalendar();
             } else if (pageId === 'statsPage') {
