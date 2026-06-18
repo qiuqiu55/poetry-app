@@ -85,6 +85,83 @@
             display: block;
         }
 
+        /* === 使用说明 === */
+        .usage-guide {
+            background: #FAF7EF;
+            border-radius: 12px;
+            padding: 14px;
+            margin-top: 20px;
+            border: 1.5px solid #E8E4D8;
+        }
+
+        .guide-item {
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #DDD8CC;
+        }
+
+        .guide-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .guide-item strong {
+            display: block;
+            font-size: 14px;
+            color: var(--cinnabar-red);
+            margin-bottom: 3px;
+        }
+
+        .guide-item p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* === 版权与关注 === */
+        .copyright-section {
+            text-align: center;
+            padding: 20px 16px 30px;
+            margin-top: 24px;
+            background: linear-gradient(180deg, transparent, #FAF7EF 15%);
+        }
+
+        .copyright-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--ink-black);
+            margin: 0 0 2px;
+        }
+
+        .copyright-author {
+            font-size: 13px;
+            color: var(--stone-blue);
+            margin: 0 0 4px;
+        }
+
+        .copyright-sub {
+            font-size: 11px;
+            color: #999;
+            margin: 0 0 14px;
+        }
+
+        .qrcode-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin: 0 auto 8px;
+            display: block;
+        }
+
+        .copyright-cta {
+            font-size: 14px;
+            color: var(--ink-black);
+            margin: 0 0 2px;
+        }
+
         /* === 底部Tab栏 === */
         .tab-bar {
             position: fixed;
@@ -775,6 +852,23 @@
             <button class="btn btn-primary" onclick="showPage('listPage')">学习古诗</button>
             <button class="btn btn-secondary" onclick="startReview()">开始复习</button>
         </div>
+
+        <!-- 使用说明 -->
+        <div class="usage-guide">
+            <div class="section-title">使用说明</div>
+            <div class="guide-item">
+                <strong>1. 用手机浏览器打开本页</strong>
+                <p>Safari / Chrome / 微信内置浏览器均可</p>
+            </div>
+            <div class="guide-item">
+                <strong>2. 添加到桌面（重要）</strong>
+                <p>iOS：点分享按钮 → "添加到主屏幕"<br>Android：浏览器菜单 → "添加到桌面"</p>
+            </div>
+            <div class="guide-item">
+                <strong>3. 为什么要加到桌面？</strong>
+                <p>这样打开的就是独立窗口，<strong>关闭后重新打开，学习进度不会丢失。</strong><br>直接在浏览器里刷新页面或清缓存才会重置进度。</p>
+            </div>
+        </div>
     </div>
 
     <!-- 古诗列表页 -->
@@ -901,6 +995,16 @@
                 <div class="chart-bar-fill" style="width: 0%;" id="masteryBar"></div>
                 <div class="chart-value" id="masteryValue">0%</div>
             </div>
+        </div>
+
+        <!-- 版权与关注 -->
+        <div class="copyright-section">
+            <p class="copyright-text">古诗背诵工具 v1.0</p>
+            <p class="copyright-author">作者：zouyingqi</p>
+            <p class="copyright-sub">人教版小学语文 1-6 年级古诗词 · 共 95 首</p>
+            <img src="qrcode_for_gh_73f4a1714c6a_258.jpg" alt="好奇心贩卖局二维码" class="qrcode-img">
+            <p class="copyright-cta">扫码关注「<strong>好奇心贩卖局</strong>」</p>
+            <p class="copyright-sub">更多教育工具 / 育儿干货 / 科技资讯</p>
         </div>
     </div>
 
