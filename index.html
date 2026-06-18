@@ -215,27 +215,29 @@
         /* === 古诗列表 === */
         .grade-tabs {
             display: flex;
-            overflow-x: auto;
-            gap: var(--space-sm);
-            padding: var(--space-md) 0;
-            -webkit-overflow-scrolling: touch;
+            gap: 6px;
+            padding: var(--space-sm) 0;
             position: sticky;
             top: 56px;
             background: var(--paper-white);
             z-index: 99;
-            padding-top: var(--space-md);
+            padding-top: var(--space-sm);
             padding-bottom: var(--space-sm);
             margin-bottom: var(--space-sm);
         }
 
         .grade-tab {
-            padding: var(--space-sm) var(--space-md);
+            flex: 1;
+            text-align: center;
+            padding: 7px 0;
             border: 2px solid #E0E0E0;
-            border-radius: 20px;
+            border-radius: 16px;
             background: white;
             cursor: pointer;
             white-space: nowrap;
-            font-size: 14px;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.2s;
         }
 
         .grade-tab.active {
@@ -249,31 +251,6 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 12px;
         }
-
-        /* 年级分区（全部视图） */
-        .grade-section {
-            margin-bottom: 28px;
-        }
-
-        .grade-header {
-            font-family: var(--font-serif);
-            font-size: 17px;
-            font-weight: 600;
-            color: var(--ink-black);
-            padding: 8px 0;
-            margin-bottom: 10px;
-            border-bottom: 2.5px solid var(--cinnabar-red);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .grade-header .count {
-            font-size: 13px;
-            color: #999;
-            font-weight: normal;
-        }
-
         .poem-card {
             background: white;
             border-radius: 12px;
@@ -971,7 +948,7 @@
         // === 数据管理 ===
         let poems = [];
         let currentPoem = null;
-        let currentGrade = '全部';
+        let currentGrade = '1年级';
         let quizQuestions = [];
         let currentQuizIndex = 0;
         let quizCorrectCount = 0;
@@ -1137,10 +1114,10 @@
 
         // === 古诗列表 ===
         function renderGradeTabs() {
-            const grades = ['全部', '1年级', '2年级', '3年级', '4年级', '5年级', '6年级'];
+            const grades = ['1年级', '2年级', '3年级', '4年级', '5年级', '6年级'];
             const tabs = document.getElementById('gradeTabs');
             tabs.innerHTML = grades.map(g => `
-                <div class="grade-tab ${g === currentGrade ? 'active' : ''}" onclick="filterByGrade('${g}')">${g}</div>
+                <div class="grade-tab ${g === currentGrade ? 'active' : ''}" onclick="filterByGrade('${g}')">${g.replace('年级','')}年级</div>
             `).join('');
         }
 
@@ -1151,55 +1128,27 @@
         }
 
         function renderPoemList() {
+            const gradeNum = parseInt(currentGrade);
+            const filteredPoems = poems.filter(p => p.grade === gradeNum);
             const list = document.getElementById('poemList');
 
-            if (currentGrade === '全部') {
-                // 按年级分组展示
-                const grades = [1, 2, 3, 4, 5, 6];
-                list.innerHTML = grades.map(grade => {
-                    const gradePoems = poems.filter(p => p.grade === grade);
-                    if (gradePoems.length === 0) return '';
-
-                    const poemCards = gradePoems.map(p => {
-                        const poemProgress = getPoemProgress(p.id);
-                        const statusText = poemProgress.status === 'new' ? '未学习' :
-                                         poemProgress.status === 'learning' ? '学习中' : '已掌握';
-                        return `
-                            <div class="poem-card" onclick="showPoemDetail('${p.id}')">
-                                <div class="title">${p.title}</div>
-                                <div class="author">${p.author}</div>
-                                <div class="status">${statusText}</div>
-                            </div>
-                        `;
-                    }).join('');
-
-                    return `
-                        <div class="grade-section">
-                            <div class="grade-header">${grade}年级 <span class="count">(${gradePoems.length}首)</span></div>
-                            <div class="poem-list">
-                                ${poemCards}
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-            } else {
-                // 单个年级，直接网格展示
-                const gradeNum = parseInt(currentGrade);
-                const filteredPoems = poems.filter(p => p.grade === gradeNum);
-
-                list.innerHTML = filteredPoems.map(p => {
-                    const poemProgress = getPoemProgress(p.id);
-                    const statusText = poemProgress.status === 'new' ? '未学习' :
-                                     poemProgress.status === 'learning' ? '学习中' : '已掌握';
-                    return `
-                        <div class="poem-card" onclick="showPoemDetail('${p.id}')">
-                            <div class="title">${p.title}</div>
-                            <div class="author">${p.author}</div>
-                            <div class="status">${statusText}</div>
-                        </div>
-                    `;
-                }).join('');
+            if (filteredPoems.length === 0) {
+                list.innerHTML = '<div style="text-align:center;color:#999;padding:40px 0;">暂无古诗</div>';
+                return;
             }
+
+            list.innerHTML = filteredPoems.map(p => {
+                const poemProgress = getPoemProgress(p.id);
+                const statusText = poemProgress.status === 'new' ? '未学习' :
+                                 poemProgress.status === 'learning' ? '学习中' : '已掌握';
+                return `
+                    <div class="poem-card" onclick="showPoemDetail('${p.id}')">
+                        <div class="title">${p.title}</div>
+                        <div class="author">${p.author}</div>
+                        <div class="status">${statusText}</div>
+                    </div>
+                `;
+            }).join('');
         }
 
         // === 古诗详情 ===
